@@ -1,0 +1,20 @@
+{
+    "blogs": [
+      {
+        "blogId": 1,
+        "blogTitle": "Provide an avenue for people",
+        "blogDescription": "Blogs are digital platforms where individuals and organizations share their thoughts, experiences, and expertise with a global audience ..",
+        "blogImage":"blogs/blog1.png",
+        "blogDate":"31,Jan"
+      },
+      {
+        "blogId": 2,
+        "blogTitle": "Joan pushed his breakfast",
+        "blogDescription": "Blogs are digital platforms where individuals and organizations share their thoughts, experiences, and expertise with a global audience ..",
+        "blogImage":"blogs/blog2.png",
+        "blogDate":"30,Mar"
+      }
+
+    ]
+  }
+  

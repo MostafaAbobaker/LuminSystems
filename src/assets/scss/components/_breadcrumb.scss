@@ -1,0 +1,14 @@
+.breadcrumb{
+    .breadcrumb-item{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        transition: $transition-3s;color:$primary-color;
+        &::before{color:$gray-color;}
+       &:hover{
+        svg path{fill:$gray-color}
+        a{color:$gray-color;}
+       }
+    }
+    .active{color:$gray-color;}
+}

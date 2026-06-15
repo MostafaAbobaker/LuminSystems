@@ -1,0 +1,37 @@
+app-page-header#privacyHeader{
+    .page-header{
+      .title-overlay{
+        .section-heading{
+          h2{
+              &::before{
+                  @include headingSection('Agreement');
+              }
+          }
+      }
+      }
+    }
+  
+  } 
+  .privacy-container{
+    h2{
+        position: relative;
+        color:$secondary-color;
+        span{color:$primary-color;}
+        &::after{
+            @include titleUnderline($secondary-color,60px,-4px);
+        }
+    }
+    p{
+        color: $primary-color-dark;
+        font-size:$fs-18;
+    }
+    ul{
+        margin-bottom: 0rem;
+        list-style: disc;
+        padding-inline-start: 2rem;
+        li{
+            color: $primary-color-dark;
+            font-size:$fs-20;
+        }
+    }
+  } 

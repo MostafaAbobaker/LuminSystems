@@ -1,0 +1,341 @@
+<nav class="sidebar sidebar-dark">
+    <button  (click)="closeSideMenu()" type="button" class="btn-close" >
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" ><g id="_01_align_center" data-name="01 align center"><polygon points="18.707 6.707 17.293 5.293 12 10.586 6.707 5.293 5.293 6.707 10.586 12 5.293 17.293 6.707 18.707 12 13.414 17.293 18.707 18.707 17.293 13.414 12 18.707 6.707"/></g></svg>
+    </button>
+    <a routerLink="/home" routerLinkActive="active"  [routerLinkActiveOptions]="{ exact: true }"  class="sidebar-brand">
+      <img src="../../../../assets/img/footer/Lumin soft_Logo.png" alt="lumin-logo">
+    </a>
+    <ul id="nav_accordion" class="sidebar-nav">
+      <li routerLink="/home" routerLinkActive="active"  [routerLinkActiveOptions]="{ exact: true }"  class="sidebar-nav-item">
+        <a  class="sidebar-nav-link" >
+            <span class="item-name">Home</span>
+        </a>
+      </li>
+      <li class="sidebar-nav-item">
+        <div class="dropdown__container">
+          <a  class="sidebar-nav-link" >
+            <span routerLink="/services" routerLinkActive="active"  class="item-name">Services</span> 
+          </a>
+          <svg data-bs-toggle="collapse" href="#mainCollapse" role="button" aria-expanded="false" aria-controls="mainCollapse" xmlns="http://www.w3.org/2000/svg" id="Isolation_Mode" data-name="Isolation Mode" viewBox="0 0 24 24" >
+            <path d="M8.127,24l9.507-9.52a3.507,3.507,0,0,0,0-4.948L8.116,0,6,2.121l9.518,9.531a.5.5,0,0,1,0,.707L6.01,21.879Z"/>
+          </svg>  
+        </div>
+        <div class="collapse" id="mainCollapse">
+          <ul class="list-group">
+            <li class="list-group-item sub-group" data-bs-toggle="collapse" href="#subgroupone" role="button" aria-expanded="false" aria-controls="subgroup">
+              <div class="d-flex justify-content-center align-items-center">
+                <span  (click)="openURL($event,'services','Digital-Experience')" class="item-name">Digital Experience</span>
+                <svg xmlns="http://www.w3.org/2000/svg" id="Isolation_Mode" data-name="Isolation Mode" viewBox="0 0 24 24" >
+                  <path d="M8.127,24l9.507-9.52a3.507,3.507,0,0,0,0-4.948L8.116,0,6,2.121l9.518,9.531a.5.5,0,0,1,0,.707L6.01,21.879Z"/>
+                </svg>   
+              </div>
+              <div class="collapse" id="subgroupone">
+                <ul class="submenu-group">
+                  <li (click)="openURL($event,'services/Digital-Experience','Customer-Experience')"  class="submenu-group-item">
+                    <a>Customer Experience</a>
+                  </li>
+                  <li (click)="openURL($event,'services/Digital-Experience','Internal-Experience')" class="submenu-group-item">
+                    <a>Internal Experience</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="list-group-item sub-group" data-bs-toggle="collapse" href="#subgrouptwo" role="button" aria-expanded="false" aria-controls="subgroup">
+              <div class="d-flex justify-content-center align-items-center">
+                <span (click)="openURL($event,'services','Operational-Excellence')" class="item-name">Operational Excellence</span>
+                <svg xmlns="http://www.w3.org/2000/svg" id="Isolation_Mode" data-name="Isolation Mode" viewBox="0 0 24 24" >
+                  <path d="M8.127,24l9.507-9.52a3.507,3.507,0,0,0,0-4.948L8.116,0,6,2.121l9.518,9.531a.5.5,0,0,1,0,.707L6.01,21.879Z"/>
+                </svg>   
+              </div>
+              <div class="collapse" id="subgrouptwo">
+                <ul class="submenu-group">
+                  <li (click)="openURL($event,'services/Operational-Excellence','Development')"  class="submenu-group-item"><a>Development</a></li>
+                  <li (click)="openURL($event,'services/Operational-Excellence','Automation')"   class="submenu-group-item"><a>Automation</a></li>
+                  <li (click)="openURL($event,'services/Operational-Excellence','Integration')"   class="submenu-group-item"><a>Integration</a></li>
+                  <li (click)="openURL($event,'services/Operational-Excellence','Content-Management')"   class="submenu-group-item"><a>Content Management</a></li>
+                  <li (click)="openURL($event,'services/Operational-Excellence','Data-Insights-and-Visualization')"   class="submenu-group-item"><a>Data Insights & Visualization</a></li>                  
+                  <li (click)="openURL($event,'services/Operational-Excellence','Enterprise-Resource-Planning')"   class="submenu-group-item"><a>nterprise Resource Planning</a></li>                  
+                  <li (click)="openURL($event,'services/Operational-Excellence','Customer-Relationship-Management')"   class="submenu-group-item"><a>Customer Relationship Management</a></li>                  
+                </ul>
+              </div>
+            </li>
+            <li class="list-group-item sub-group" data-bs-toggle="collapse" href="#subgroupthree" role="button" aria-expanded="false" aria-controls="subgroup">
+              <div class="d-flex justify-content-center align-items-center">
+                <span (click)="openURL($event,'services','Artifical-Intelligance')" class="item-name">Artificial intelligence AI</span>
+                <svg xmlns="http://www.w3.org/2000/svg" id="Isolation_Mode" data-name="Isolation Mode" viewBox="0 0 24 24" >
+                  <path d="M8.127,24l9.507-9.52a3.507,3.507,0,0,0,0-4.948L8.116,0,6,2.121l9.518,9.531a.5.5,0,0,1,0,.707L6.01,21.879Z"/>
+                </svg>   
+              </div>
+              <div class="collapse" id="subgroupthree">
+                <ul class="submenu-group">
+                  <li (click)="openURL($event,'services/Artifical-Intelligance','Computer-Vision')" class="submenu-group-item"><a>Computer Vision</a></li>
+                  <li (click)="openURL($event,'services/Artifical-Intelligance','Machine-Learning-Services(ML)')"  class="submenu-group-item"><a>Machine Learning Services (ML)</a></li>
+                  <li (click)="openURL($event,'services/Artifical-Intelligance','NLP–Natural-Language-Processing')"  class="submenu-group-item"><a>NLP – Natural Language Processing </a></li>
+                  <li (click)="openURL($event,'services/Artifical-Intelligance','AI-driven-Business-Automation')"  class="submenu-group-item"><a>AI-driven Business Automation</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="list-group-item sub-group" data-bs-toggle="collapse" href="#subgroupfour" role="button" aria-expanded="false" aria-controls="subgroup">
+              <div class="d-flex justify-content-center align-items-center">
+                <span (click)="openURL($event,'services','Database-Service')" class="item-name">Database Services </span>
+                <svg xmlns="http://www.w3.org/2000/svg" id="Isolation_Mode" data-name="Isolation Mode" viewBox="0 0 24 24" >
+                  <path d="M8.127,24l9.507-9.52a3.507,3.507,0,0,0,0-4.948L8.116,0,6,2.121l9.518,9.531a.5.5,0,0,1,0,.707L6.01,21.879Z"/>
+                </svg>   
+              </div>
+              <div class="collapse" id="subgroupfour">
+                <ul class="submenu-group">
+                  <li (click)="openURL($event,'services/Database-Service','Administration')"  class="submenu-group-item"><a>Administration</a></li>
+                  <li (click)="openURL($event,'services/Database-Service','Performance-Optimization')"  class="submenu-group-item"><a>Performance Optimization</a></li>
+                  <li (click)="openURL($event,'services/Database-Service','Availability')"  class="submenu-group-item"><a>Availability </a></li>
+                  <li (click)="openURL($event,'services/Database-Service','Migration')"  class="submenu-group-item"><a>Migration </a></li>
+                  <li (click)="openURL($event,'services/Database-Service','Support')"  class="submenu-group-item"><a>Support</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="list-group-item sub-group" data-bs-toggle="collapse" href="#subgroupfive" role="button" aria-expanded="false" aria-controls="subgroup">
+              <div class="d-flex justify-content-center align-items-center">
+                <span (click)="openURL($event,'services','Consultant-&-OutSourcing')" class="item-name">Consultancy & Outsourcing </span>
+                <svg xmlns="http://www.w3.org/2000/svg" id="Isolation_Mode" data-name="Isolation Mode" viewBox="0 0 24 24" >
+                  <path d="M8.127,24l9.507-9.52a3.507,3.507,0,0,0,0-4.948L8.116,0,6,2.121l9.518,9.531a.5.5,0,0,1,0,.707L6.01,21.879Z"/>
+                </svg>   
+              </div>
+              <div class="collapse" id="subgroupfive">
+                <ul class="submenu-group">
+                  <li (click)="openURL($event,'services/Consultant-&-OutSourcing','Dedicated-Development-Team')"  class="submenu-group-item"><a>Dedicated Development Team  </a></li>
+                  <li (click)="openURL($event,'services/Consultant-&-OutSourcing','Dedicated-UI-UX-Team')"  class="submenu-group-item"><a>Dedicated UI/UX Team</a></li>
+                  <li (click)="openURL($event,'services/Consultant-&-OutSourcing','Dedicated-Project-Team')"  class="submenu-group-item"><a>Dedicated Project Team </a></li>
+                  <li (click)="openURL($event,'services/Consultant-&-OutSourcing','Dedicated-QA-Team')"  class="submenu-group-item"><a>Dedicated QA Team</a></li>
+                  <li (click)="openURL($event,'services/Consultant-&-OutSourcing','Consultancy-Services')"  class="submenu-group-item"><a>Consultancy Services</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="list-group-item sub-group" data-bs-toggle="collapse" href="#subgroupsix" role="button" aria-expanded="false" aria-controls="subgroup">
+              <div class="d-flex justify-content-center align-items-center">
+                <span (click)="openURL($event,'services','Card-Issuing-Service')" class="item-name">Card Issuing Services </span>
+                <svg xmlns="http://www.w3.org/2000/svg" id="Isolation_Mode" data-name="Isolation Mode" viewBox="0 0 24 24" >
+                  <path d="M8.127,24l9.507-9.52a3.507,3.507,0,0,0,0-4.948L8.116,0,6,2.121l9.518,9.531a.5.5,0,0,1,0,.707L6.01,21.879Z"/>
+                </svg>   
+              </div>
+              <div class="collapse" id="subgroupsix">
+                <ul class="submenu-group">
+                  <li routerLink="services/EMV-Script-Development"  class="submenu-group-item"><a>EMV Script Development </a></li>
+                  <li routerLink="services/Smart-Card-Applet-Development"  class="submenu-group-item"><a>Smart Card Applet Development</a></li>
+                  <li routerLink="services/E-ID-and-E-Passports-and-Access-Cards"  class="submenu-group-item"><a> E-ID and E-Passports and Access Cards </a></li>
+                  <li routerLink="services/Entrust-Authentication-Software-Platforms"  class="submenu-group-item"><a>Entrust® authentication software platforms</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="sidebar-nav-item">
+        <div class="dropdown__container">
+          <a class="sidebar-nav-link">
+            <span  routerLink="/products" class="item-name"> Products</span>
+          </a>
+          <svg  data-bs-toggle="collapse" href="#ProductsmainCollapse" role="button" aria-expanded="false" aria-controls="mainCollapse" xmlns="http://www.w3.org/2000/svg" id="Isolation_Mode" data-name="Isolation Mode" viewBox="0 0 24 24" >
+            <path d="M8.127,24l9.507-9.52a3.507,3.507,0,0,0,0-4.948L8.116,0,6,2.121l9.518,9.531a.5.5,0,0,1,0,.707L6.01,21.879Z"/>
+          </svg>  
+        </div>  
+        <div class="collapse" id="ProductsmainCollapse">
+          <ul class="list-group">
+            <li class="list-group-item sub-group">
+              <div class="d-flex justify-content-center align-items-center">
+                <span  (click)="openURL($event,'products','eNroll')"  class="item-name">eNroll</span>
+              </div>
+            </li>
+            <li class="list-group-item sub-group">
+              <div class="d-flex justify-content-center align-items-center">
+                <span  (click)="openURL($event,'products','SWAP')"    class="item-name">Swap</span>
+              </div>
+            </li>
+            <li class="list-group-item sub-group">
+              <div class="d-flex justify-content-center align-items-center">
+                <span  (click)="openURL($event,'products','Notify')"  class="item-name">Notify</span> 
+              </div>
+            </li>
+            <!-- <li class="list-group-item sub-group" data-bs-toggle="collapse" href="#Productssubgroup" role="button" aria-expanded="false" aria-controls="subgroup">
+              <div class="d-flex justify-content-center align-items-center">
+                <span routerLink="/coming-soon"  class="item-name">eVision</span>
+                <svg xmlns="http://www.w3.org/2000/svg" id="Isolation_Mode" data-name="Isolation Mode" viewBox="0 0 24 24" >
+                  <path d="M8.127,24l9.507-9.52a3.507,3.507,0,0,0,0-4.948L8.116,0,6,2.121l9.518,9.531a.5.5,0,0,1,0,.707L6.01,21.879Z"/>
+                </svg>   
+              </div>
+              <div class="collapse" id="Productssubgroup">
+                <ul class="submenu-group">
+                  <li routerLink="/coming-soon"  class="submenu-group-item"><a>eFoot</a></li>
+                  <li routerLink="/coming-soon"  class="submenu-group-item"><a>eTrainer</a></li>
+                  <li routerLink="/coming-soon"  class="submenu-group-item"><a>eGolf</a></li>
+                </ul>
+              </div>
+            </li> -->
+            <li class="list-group-item sub-group">
+              <div class="d-flex justify-content-center align-items-center">
+                <span  (click)="openURL($event,'products','Pitchplus')"   class="item-name">Pitch+ </span>   
+              </div>
+            </li>
+            <li class="list-group-item sub-group">
+              <div class="d-flex justify-content-center align-items-center">
+                <span  (click)="openURL($event,'products','FitMateplus')"   class="item-name">FitMate+</span>
+              </div>
+            </li>
+            <li class="list-group-item sub-group">
+              <div class="d-flex justify-content-center align-items-center">
+                <span  (click)="openURL($event,'products','Form-Management')"   class="item-name">Form Management </span>  
+              </div>
+            </li>
+            <li class="list-group-item sub-group">
+              <div class="d-flex justify-content-center align-items-center">
+                <span  (click)="openURL($event,'products','ID-Hub')"  class="item-name">ID Hub </span>  
+              </div>
+            </li>
+            <li class="list-group-item sub-group">
+              <div class="d-flex justify-content-center align-items-center">
+                <span  (click)="openURL($event,'products','Lumin-One-ECM')"   class="item-name">Lumin One ECM </span>  
+              </div>
+            </li>
+
+
+          </ul>
+        </div>
+      </li>
+      <li class="sidebar-nav-item">
+        <div class="dropdown__container">
+          <a routerLink="/industries" class="sidebar-nav-link" >
+            <span class="item-name"> Industries</span> 
+          </a>
+          <svg data-bs-toggle="collapse" href="#IndustriesmainCollapse" role="button" aria-expanded="false" aria-controls="mainCollapse" xmlns="http://www.w3.org/2000/svg" id="Isolation_Mode" data-name="Isolation Mode" viewBox="0 0 24 24" >
+            <path d="M8.127,24l9.507-9.52a3.507,3.507,0,0,0,0-4.948L8.116,0,6,2.121l9.518,9.531a.5.5,0,0,1,0,.707L6.01,21.879Z"/>
+          </svg> 
+        </div>
+        <div class="collapse" id="IndustriesmainCollapse">
+          <ul class="list-group">
+            <li class="list-group-item sub-group">
+              <div class="d-flex justify-content-center align-items-center">
+                <span (click)="openURL($event,'industries','Government')"   class="item-name">Government</span>
+              </div>
+            </li>
+            <li class="list-group-item sub-group">
+              <div class="d-flex justify-content-center align-items-center">
+                <span (click)="openURL($event,'industries','Banking-and-Finance')" class="item-name">Banking & Finance</span>   
+              </div>
+            </li>
+            <li class="list-group-item sub-group">
+              <div class="d-flex justify-content-center align-items-center">
+                <span (click)="openURL($event,'industries','Insurance')" class="item-name">Insurance</span> 
+              </div>
+            </li>
+            <li class="list-group-item sub-group">
+              <div class="d-flex justify-content-center align-items-center">
+                <span (click)="openURL($event,'industries','Sports')"  class="item-name">Sports </span>  
+              </div>
+            </li>
+            <li class="list-group-item sub-group">
+              <div class="d-flex justify-content-center align-items-center">
+                <span (click)="openURL($event,'industries','Retail')"  class="item-name">Retail</span> 
+              </div>
+            </li>
+            <li class="list-group-item sub-group">
+              <div class="d-flex justify-content-center align-items-center">
+                <span (click)="openURL($event,'industries','Telecommunications')"  class="item-name">Telecommunication </span>  
+              </div>
+            </li>
+            <li class="list-group-item sub-group">
+              <div class="d-flex justify-content-center align-items-center">
+                <span (click)="openURL($event,'industries','Real-Estate')"  class="item-name">Real-Estate </span>
+              </div>
+            </li>
+            <li class="list-group-item sub-group">
+              <div class="d-flex justify-content-center align-items-center">
+                <span (click)="openURL($event,'industries','Education')"  class="item-name">Education</span>
+              </div>
+            </li>
+
+
+          </ul>
+        </div>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="sidebar-nav-link" data-bs-toggle="collapse" href="#TechnologymainCollapse" role="button" aria-expanded="false" aria-controls="mainCollapse">
+          <span routerLink="/technologies"  class="item-name"> Technology</span> 
+          <svg xmlns="http://www.w3.org/2000/svg" id="Isolation_Mode" data-name="Isolation Mode" viewBox="0 0 24 24" >
+            <path d="M8.127,24l9.507-9.52a3.507,3.507,0,0,0,0-4.948L8.116,0,6,2.121l9.518,9.531a.5.5,0,0,1,0,.707L6.01,21.879Z"/>
+          </svg> 
+        </a>
+        <div class="collapse" id="TechnologymainCollapse">
+          <ul class="list-group">
+            <li class="list-group-item sub-group">
+              <div class="d-flex justify-content-center align-items-center">
+                <span  (click)="openURL($event,'technologies','Odoo')" class="item-name">Odoo</span>
+              </div>
+            </li>
+            <li class="list-group-item sub-group">
+              <div class="d-flex justify-content-center align-items-center">
+                <span  (click)="openURL($event,'technologies','Microsoft')" class="item-name">Microsoft</span>
+              </div>
+            </li>
+            <li class="list-group-item sub-group">
+              <div class="d-flex justify-content-center align-items-center">
+                <span  (click)="openURL($event,'technologies','TechnologyStack')"  class="item-name">Technology Stack</span>
+              </div>
+            </li>
+            <li class="list-group-item sub-group">
+              <div class="d-flex justify-content-center align-items-center">
+                <span  (click)="openURL($event,'technologies','AI-Technology-Stack')"  class="item-name">AI Technology Stack</span>
+              </div>
+            </li>
+            <li class="list-group-item sub-group">
+              <div class="d-flex justify-content-center align-items-center">
+                <span  (click)="openURL($event,'technologies','ENTRUST')"  class="item-name">ENTRUST</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="sidebar-nav-item">
+        <a  class="sidebar-nav-link">
+          <span routerLink="/customers"  class="item-name">Customers</span>
+        </a>
+      </li>
+      <!-- <li class="sidebar-nav-item">
+        <a  class="sidebar-nav-link">
+          <span routerLink="/blogs" class="item-name">Blogs</span>
+        </a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a  class="sidebar-nav-link">
+          <span routerLink="/news" class="item-name">News</span>
+        </a>
+      </li> -->
+      <li class="sidebar-nav-item">
+        <a  class="sidebar-nav-link">
+          <span routerLink="/partners" class="item-name">Partners</span>
+        </a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a  class="sidebar-nav-link">
+          <span routerLink="/about-us"  class="item-name">About Us</span>
+        </a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a  class="sidebar-nav-link">
+          <span routerLink="/privacy-policy"  class="item-name">Privacy Policy</span>
+        </a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a  class="sidebar-nav-link">
+          <span routerLink="/terms-condition"  class="item-name">Terms Condition</span>
+        </a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a  class="sidebar-nav-link">
+          <span routerLink="/contact-us"   class="item-name">Contact Us</span>
+        </a>
+      </li>
+      <!-- <li class="sidebar-nav-item">
+        <a  class="sidebar-nav-link">
+          <span routerLink="/careers"  class="item-name">Career </span>
+        </a>
+      </li> -->
+  </ul>
+  </nav><!--sidebar--->

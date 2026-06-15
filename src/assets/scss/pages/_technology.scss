@@ -1,0 +1,28 @@
+app-page-header#technologyHeader{
+    .page-header{
+      .title-overlay{
+        .section-heading{
+          h2{
+              &::before{
+                  @include headingSection('Techniques');
+              }
+          }
+      }
+      }
+    }
+  
+  }
+.technologies__overlay{
+  background-color: $section-bg !important;
+  margin-top: 0px !important;
+  .tab-content{background-color:  $section-bg !important;}
+}  
+.bg-technology{background-color:  $section-bg !important;}
+.technology__subTitle{
+  .overlay-sperator{
+    h2{color: $primary-color;
+      &::before{content: 'Innovations' !important;
+      }
+    }
+  }
+}

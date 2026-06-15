@@ -1,0 +1,119 @@
+<app-loader *ngIf="loaded"></app-loader>
+<app-page-header headerTitle="Careers" [headerImage]="'career/header.jpg'" id="careerHeader"></app-page-header>
+
+<section class="all-service-page">
+  <div class="container ">
+    <!-- breadcrumb -->
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li routerLink="" class="breadcrumb-item ">
+          <svg xmlns="http://www.w3.org/2000/svg" height="23.016" viewBox="0 0 24 23.016">
+            <path id="Home_icon_SVG" data-name="Home icon_SVG"
+              d="M23.728,21.082,13.959,11.25l-.039-.037a2.81,2.81,0,0,0-3.749-.008l-.039.037L.275,21.079A.938.938,0,0,0,1.6,22.406l.744-.743v8.095a3.754,3.754,0,0,0,3.75,3.75H9.469a.937.937,0,0,0,.937-.937V24.93h3.281v7.641a.937.937,0,0,0,.938.938h3.281a3.754,3.754,0,0,0,3.75-3.75.937.937,0,1,0-1.875,0,1.877,1.877,0,0,1-1.875,1.875H15.563V23.993a.937.937,0,0,0-.937-.937H9.469a.937.937,0,0,0-.937.938v7.641H6.094a1.877,1.877,0,0,1-1.875-1.875V19.821q0-.014,0-.028l7.217-7.2a.937.937,0,0,1,1.216,0l7.13,7.177v5.3a.937.937,0,1,0,1.875,0V21.658l.741.746a.937.937,0,0,0,1.33-1.322Z"
+              transform="translate(0 -10.492)" fill="#0055b8" />
+          </svg>
+          <a>Home</a>
+        </li>
+        <li class="breadcrumb-item " routerLink="/careers"><a>Career</a></li>
+        <li class="breadcrumb-item active" routerLink="/explore-jobs"><a>Opportunities</a></li>
+      </ol>
+    </nav>
+  </div>
+</section>
+
+<section class="facts service__category service__subcategory section-space">
+  <div class="bg-light-section">
+    <div class="container">
+      <div class="facts__content-container service__category__image">
+        <form class="career-form" [formGroup]="filterForm">
+          <div class="row g-3 d-flex align-items-center justify-content-center">
+            <div class="col-lg">
+              <div class="form-floating">
+                <input type="text" formControlName="searchTerm" class="form-control" id="floatingInput"
+                  placeholder="Job Title Keywords">
+                <label for="floatingInput">Job Title Keywords</label>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="form-floating">
+                <select class="form-select" formControlName="jobLevel" id="floatingSelect"
+                  aria-label="Floating label select example">
+                  <option [value]="null">Select Job Level </option>
+                  <option *ngFor="let job of jobLevels" [value]="job.value">{{ job.label }}</option>
+                </select>
+                <label for="floatingSelect">Works with selects</label>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="form-floating">
+                <select class="form-select" formControlName="jobCondtion" id="floatingSelect"
+                  aria-label="Floating label select example">
+                  <option [value]="null" selected>Select Job Condition</option>
+                  <option *ngFor="let condition of jobCondtions" [value]="condition.value">{{ condition.label }}
+                  </option>
+                </select>
+                <label for="floatingSelect">Works with selects</label>
+              </div>
+            </div>
+            <div class="col-auto">
+              <button class="btn btn-lg filter-btn" (click)="applyFilter()">Filter</button>
+            </div>
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="our-facts sub__category__titles">
+    <div class="overlay-sperator">
+      <img src="../../../../assets/img/services/BottomCurvedShape.svg">
+      <div class="section-heading explore__jobs__heading">
+        <h2 class="text-primary">Job Openings</h2>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="service__subcategory contact-News pt-5">
+  <div class="container">
+    <div class="row g-3">
+      <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" *ngFor="let job of dataItems">
+        <div class="card-news ">
+          <div class="content-card-news">
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item ">
+                  <a>{{ JobUtilityService.getJobConditionText(job.jobCondition) }}</a>
+                </li>
+                <li class="breadcrumb-item "><a>{{JobUtilityService.getTypeText(job.jobType)}}</a></li>
+              </ol>
+            </nav>
+            <h5 class="title-card-news line-clamp-5 ">{{job.jobTitle}}</h5>
+
+            <div class="card-news-body">
+              <p class="text-content">{{job.jobDescription | textTruncate}}</p>
+            </div>
+            <div class="date"><span class="day">{{job.createDate | dayCount}}</span> <span
+                class="month">{{job.createDate | monthName}}</span></div>
+            <a [routerLink]="'/careers/apply-for-job/' +job.jobId" class="link-card"><img
+                src="../../../assets/img/home/icons/arrow.svg" alt=""></a>
+
+          </div>
+        </div>
+      </div>
+      <div class="message text-center" *ngIf="dataItems.length == 0">
+        <h1>No Available Jobs</h1>
+        <p>Currently, there are no available job positions. Please check back later.</p>
+      </div>
+      <div class="more text-center">
+        <a class="btn btn-secondary m-auto my-5" (click)="loadMoreJobs()" *ngIf="isMoreData">
+          <span>Load More</span>
+          <img src="assets/img/career/icon_plus.svg" alt="" class="ms-2" style="width: 10px;">
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="section-seprator bg-gray ">
+  <img src="../../../../assets/img/home/TopCurves.svg">
+</div>

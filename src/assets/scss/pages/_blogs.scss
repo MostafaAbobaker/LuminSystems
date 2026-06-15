@@ -1,0 +1,162 @@
+app-page-header#blogHeader{
+    .page-header{
+      .title-overlay{
+        .section-heading{
+          h2{
+              &::before{
+                  @include headingSection('diaries');
+              }
+          }
+      }
+      }
+    }
+  
+  }
+.blog-card{
+    position: relative;
+    &::before {
+        content: '';
+        position: absolute;
+        top: -10px;
+        inset-inline-start: 10px;
+        background-color: $secondary-color;
+        height: 50%;
+        width: rem(100);
+        height: rem(100);
+        border-radius: 15px;
+        z-index: 0;
+      }
+    .date {
+    position: absolute;
+    top: -10px;
+    inset-inline-end: 10px;
+    background-color: $primary-color-dark;
+    border-radius: 0px 15px;
+    color: var(--white-color);
+    font-weight: bold;
+    text-align: center;
+    z-index: 12;
+    .day {
+        padding: 5px 10px;
+        display: block;
+        font-size: 28px;
+    }
+    .month {
+        display: block;
+        background-color: $secondary-color;
+        color: var(--white-color);
+        font-weight: bold;
+        border-radius: 0px 15px;
+        padding: 5px 10px;
+        font-size: $fs-20;
+        text-transform: uppercase ;
+    }
+    }
+    .link-card {
+        position: absolute;
+        bottom: rem(-10 );
+        inset-inline-end: rem(-10);
+        background-color: rgba($primary-color , .9);
+        text-align: center;
+        width: 70px;
+        padding: rem(8) 0;
+        border-radius: 0rem;
+        border-top-left-radius: rem(25);
+        border-bottom-right-radius: rem(25);
+        z-index: 20;
+        img {
+          width: 25px;
+        }
+      }  
+}
+.blog-card-detail{
+  .product__image__container{
+    position: relative;margin-inline-end: 2rem;z-index: 99;
+    @media #{$max-l} {margin-inline-end:unset;}
+    .square__one{position: absolute;top: 7px;inset-inline-start: -14px;width:30%;height: 50%;background-color: $secondary-color;border-radius: rem(40);z-index: -1;
+      @media #{$max-sm} {top:12px;inset-inline-start:-10px;}
+    }
+    img{
+      border-start-start-radius: rem(120);
+      border-start-end-radius: rem(20);
+      border-end-start-radius: rem(20);
+      border-end-end-radius: rem(120);
+      max-height: 350px;width: 100%;object-fit: cover;
+      margin:1.5rem 0rem ;position: relative;
+      @media #{$max-l} {border-radius: rem(50);}
+      @media(max-width:1200px){border-radius: rem(50);}
+    }
+    &::before{
+      content: "";position: absolute;top: 10%;left: 4%;bottom: 10%;right: 4%;width: 92%;
+      height: 80;z-index: 9;
+      border: 1px solid $white-color;border-start-start-radius: rem(120);border-start-end-radius: rem(20);
+      border-end-start-radius: rem(20);border-end-end-radius: rem(120);
+      @media #{$max-l} {border-radius: rem(50);}
+      @media(max-width:1200px){border-radius: rem(50);top: 15%;bottom: 15%;height: 70%;}
+      @media #{$max-sm} {top: 15%;bottom: 15%;height: 70%;}
+    }
+  
+  }
+  &::before{display: none;}
+  .date {
+    top: 3px;
+    inset-inline-end: 44px;
+    z-index: 100;
+    @media #{$max-l} {inset-inline-end:10px;
+    .day{font-size: 1.25rem;}
+    .month{font-size: 1rem;}
+    }
+  
+  }
+  .service__main__title{
+    color: $secondary-color;
+    position: relative;
+    font-size: 2rem;
+    &::after{
+      @include titleUnderline($secondary-color,10%,-2px)
+    }
+
+  }
+
+}
+.related_detail{
+  .service__main__title{
+    &::after{
+      @include titleUnderline($secondary-color,15%,-2px)
+    }
+
+  }
+  .related_detail_card{
+    margin: 1rem 0rem;
+    border-radius:1rem;
+    position: relative;
+    cursor: pointer;
+    img{border-radius:1rem; 
+      min-height: 250px;
+      width: 100%;
+      object-fit: fill;
+    }
+    .related_detail_card_title{
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      height: 30%;
+      background-color:rgba($secondary-color , .7);
+      color: $white-color;
+      border-radius:1rem;
+      padding: 1rem ;
+
+    }
+    .date{
+      top: 0px;
+      inset-inline-end:0px;
+  
+    }
+  }
+}
+.blog-container{
+  max-height: 900px;
+  overflow-y: scroll;
+}

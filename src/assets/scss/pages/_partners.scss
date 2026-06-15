@@ -1,0 +1,32 @@
+app-page-header#parnterHeader{
+    .page-header{
+      .title-overlay{
+        .section-heading{
+          h2{
+              &::before{
+                  @include headingSection('Affiliates');
+              }
+          }
+      }
+      }
+    }
+  
+  }  
+
+  app-page-header#customerHeader{
+    .page-header{
+      .title-overlay{
+        .section-heading{
+          h2{
+              &::before{
+                  @include headingSection('Clientele');
+              }
+          }
+      }
+      }
+    }
+  
+  }  
+  .partner__page{
+    background-color:$white-color;
+  }

@@ -1,0 +1,61 @@
+{
+    "industries": [
+      {
+        "industryId": 1,
+        "industryTitle": "Government",
+        "industryTitleNavigation": "Government",
+        "industryDescription": "We help empower public entities with robust and secure software solutions, facilitating streamlined processes …",
+        "industryImage":"Industries/gov.svg"
+      },
+      {
+        "industryId": 2,
+        "industryTitle": "Banking & Finance",
+        "industryTitleNavigation": "Banking-and-Finance",
+        "industryDescription": "We deliver advanced software solutions to enhance operational workflows, security, and customer experience ..",
+        "industryImage":"Industries/finance.svg"
+      },
+      {
+        "industryId": 3,
+        "industryTitle": "Insurance",
+        "industryTitleNavigation": "Insurance",
+        "industryDescription": "We offer innovative software solutions to streamline policy management, claims processing, and risk assessment ..",
+        "industryImage":"Industries/insurance.svg"
+      },
+      {
+        "industryId": 4,
+        "industryTitle": "Sports",
+        "industryTitleNavigation": "Sports",
+        "industryDescription": "We provide front-line software to optimize management, whether it's analytics, tracking, or development ..",
+        "industryImage":"Industries/sports.svg"
+      },
+      {
+        "industryId": 5,
+        "industryTitle": "Retail",
+        "industryTitleNavigation": "Retail",
+        "industryDescription": "Our software solutions enable businesses to adapt to changing consumer trends, optimize inventory management ..",
+        "industryImage":"Industries/retail.svg"
+      },
+      {
+        "industryId": 6,
+        "industryTitle": "Telecommunications",
+        "industryTitleNavigation": "Telecommunications",
+        "industryDescription": "We facilitate connectivity and communication through innovative software solutions. Our technologies empower ..",
+        "industryImage":"Industries/telecom.svg"
+      },
+      {
+        "industryId": 7,
+        "industryTitle": "Real Estate",
+        "industryTitleNavigation": "Real-Estate",
+        "industryDescription": "We provide tailored software solutions that streamline property management, enhance customer interactions ..",
+        "industryImage":"Industries/Real-Estate-loan.svg"
+      },
+      {
+        "industryId": 8,
+        "industryTitle": "Education",
+        "industryTitleNavigation": "Education",
+        "industryDescription": "Designed to empower institutions with seamless management, interactive learning solutions, and data-driven insights …",
+        "industryImage":"Industries/education.svg"
+      }
+    ]
+  }
+  

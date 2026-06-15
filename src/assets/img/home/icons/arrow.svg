@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="33.34" height="20.359" viewBox="0 0 33.34 20.359">
+  <g id="Read_More_Arrow" data-name="Read More Arrow" transform="translate(-601 -3912.647)">
+    <path id="Icon_awesome-arrow-right" data-name="Icon awesome-arrow-right" d="M9.333,4.011l1.035-1.035a1.114,1.114,0,0,1,1.58,0l9.063,9.058a1.114,1.114,0,0,1,0,1.58l-9.063,9.063a1.114,1.114,0,0,1-1.58,0L9.333,21.643a1.12,1.12,0,0,1,.019-1.6l5.618-5.352H1.57c-.62,0,.207-1.1.207-1.782v-.166c0-.684-.827-1.782-.207-1.782h13.4L9.351,5.61A1.112,1.112,0,0,1,9.333,4.011Z" transform="translate(613 3910)" fill="#fff"/>
+    <path id="Path_93" data-name="Path 93" d="M1.625,0c.9,0,1.625,1.091,1.625,2.438S2.522,4.875,1.625,4.875,0,3.784,0,2.438.728,0,1.625,0Z" transform="translate(609.375 3920.563)" fill="#fff"/>
+    <path id="Path_92" data-name="Path 92" d="M1.5,0C2.328,0,3,.9,3,2S2.328,4,1.5,4,0,3.1,0,2,.672,0,1.5,0Z" transform="translate(605 3921)" fill="#fff"/>
+    <path id="Path_91" data-name="Path 91" d="M1.25,0C1.94,0,2.5.746,2.5,1.667S1.94,3.333,1.25,3.333,0,2.587,0,1.667.56,0,1.25,0Z" transform="translate(601 3921.333)" fill="#fff"/>
+  </g>
+</svg>

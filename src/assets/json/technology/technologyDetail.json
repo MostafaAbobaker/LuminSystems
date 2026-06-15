@@ -1,0 +1,170 @@
+{
+    "technologies": [
+      {
+        "technologyDetailId": 1,
+        "technologyImage": "../../../../../../assets/img/technology/single-technology/odoo.png",
+        "technologyDetailTitle": "Odoo",
+        "technologyDetailHeadingTitle": "Notify:",
+        "technologyDetailHeadingSufixTitle": "Transformative Business Agility!",
+        "technologyDetailContent": "With its innovative and comprehensive approach, Odoo provides an effortlessly integrated suite of applications that cover various aspects of enterprise management. What sets it apart is its modular architecture, allowing businesses to tailor their software environment to meet their specific needs. The platform's modular design enables organizations to start with essential modules and progressively expand their system as their requirements evolve. Whether it's accounting, inventory management, CRM, or e-commerce, Odoo's modular structure ensures flexibility and scalability, empowering businesses of all sizes to build a customized solution that perfectly aligns with their operations.",
+        "technologyUsedList":[
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/odoo/CRM.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/odoo/point-of-sales.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/odoo/sales.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/odoo/manufacturing.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/odoo/purchase.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/odoo/employees.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/odoo/recruitment.svg"
+            }
+            
+        ]
+        
+      },
+      {
+        "technologyDetailId": 2,
+        "technologyImage": "../../../../../../assets/img/technology/single-technology/microsoft-internal.png",
+        "technologyDetailTitle": "Microsoft",
+        "technologyDetailHeadingTitle": "Microsoft:",
+        "technologyDetailHeadingSufixTitle": "The Dynamics of Modernization!",
+        "technologyDetailContent": "From the ubiquitous Windows operating system to the powerful suite of productivity tools in Office 365, and the cloud computing prowess of Azure, Microsoft's impact on the tech industry is profound. The interconnected ecosystem seamlessly integrates software, services, and devices, providing businesses with a versatile and unified digital experience and cutting-edge solutions like AI-driven applications, collaborative platforms, operating systems, productivity software, cloud services, and development tools that unlock users’ full potential through a diverse array of tools designed to enhance productivity, foster creativity, and drive progress in an ever-connected world.",
+        "technologyUsedList":[
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/microsoft/asp.net.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/microsoft/csharp.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/microsoft/NETcore.svg"
+            }
+            
+        ]
+        
+      },
+      {
+        "technologyDetailId": 3,
+        "technologyImage": "../../../../../../assets/img/technology/single-technology/dev-tools-internal.png",
+        "technologyDetailTitle": "Technology Stack",
+        "technologyDetailHeadingTitle": "Technology Stack:",
+        "technologyDetailHeadingSufixTitle": "Catalysts of Efficiency!",
+        "technologyDetailContent": "Technology Stack encompass a diverse array, ranging from Integrated Development Environments (IDEs) like Visual Studio Code to Version Control Systems like Git. Technology Stack streamline workflows, offering features like real-time collaboration, code debugging, and automated testing, all geared towards enhancing efficiency and code quality. With a focus on user-friendly interfaces and collaborative functionalities, these tools empower development teams to work seamlessly, fostering innovation and accelerating the software development lifecycle, and ensuring precision, scalability, and ultimately, the delivery of exceptional software solutions.",
+        "technologyUsedList":[
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/dev/android-studio.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/dev/angular.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/dev/dart.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/dev/flutter.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/dev/identity-server-4.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/microsoft/asp.net.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/dev/javascript.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/dev/jquery.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/dev/kotlin.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/dev/NETcore.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/dev/rabbitmq.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/dev/signalr.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/dev/SQL-server.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/dev/swift.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/dev/xcode.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/dev/XD.svg"
+            }
+            
+        ]
+        
+      },
+      {
+        "technologyDetailId": 4,
+        "technologyImage": "../../../../../../assets/img/technology/single-technology/ai-internal.png",
+        "technologyDetailTitle": "AI Technology Stack",
+        "technologyDetailHeadingTitle": "AI Technology Stack:",
+        "technologyDetailHeadingSufixTitle": "Shaping the Future of Innovation!",
+        "technologyDetailContent": "From machine learning algorithms that enable systems to learn and adapt to natural language processing facilitating human-computer communication, AI technologies are redefining the boundaries of what is possible. The integration of AI in various industries, such as healthcare, finance, and manufacturing, is unlocking unprecedented efficiencies and insights. Deep learning models, neural networks, and computer vision are just a glimpse of the powerful tools within the AI arsenal that not only reshape industries but also prompt us to reimagine the possibilities for innovation and problem-solving in the rapidly advancing technological landscape.",
+        "technologyUsedList":[
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/AI/cuda.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/AI/numpy.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/AI/opencv.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/AI/pandas.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/AI/python.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/AI/pytorch.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/AI/tensorflow.svg"
+            }
+            
+        ]
+      },
+      {
+        "technologyDetailId": 5,
+        "technologyImage": "../../../../../../assets/img/technology/single-technology/entrust-internal.png",
+        "technologyDetailTitle": "ENTRUST",
+        "technologyDetailHeadingTitle": "ENTRUST",
+        "technologyDetailHeadingSufixTitle": "Fortifying Trust and Security!",
+        "technologyDetailContent": "ENTRUST offers a comprehensive suite of identity and security solutions, where this versatile technology encompasses an array of features, ranging from ensuring secure debit/credit card transactions and precise card printing to the provision of robust border control solutions. ENTRUST also plays a pivotal role in fortifying online security through cutting-edge SSL technologies, providing a shield against cyber threats. Moreover, its authentication products contribute to the safeguarding of networks and devices, ensuring a robust defense against unauthorized access and reinforcing the integrity of transactions, information, and communication channels.",
+        "technologyUsedList":[
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/enrust/encryption.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/enrust/nfc.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/enrust/nfc-card.svg"
+            }
+        ]
+      }
+    ]
+  }         
+  

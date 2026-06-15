@@ -1,0 +1,33 @@
+app-page-header#industryHeader{
+    .page-header{
+      .title-overlay{
+        .section-heading{
+          h2{
+              &::before{
+                  @include headingSection('WeServe');
+              }
+          }
+      }
+      }
+    }
+  }
+app-page-header#industry-detail{
+    .page-header{
+      .title-overlay{
+        .section-heading{
+          h2{
+              &::before{
+                  @include headingSection('WeServe');
+              }
+          }
+      }
+      }
+    }
+  }
+  .industries__customer{
+    .section-heading{top:30%;
+      h2{&::before{@include headingSection('ClientsUsed');color:$primary-color;    
+          @media #{$max-sm} {font-size:rem(64);}
+      }}
+  }
+  }

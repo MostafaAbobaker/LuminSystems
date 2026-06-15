@@ -1,0 +1,223 @@
+<div class="contactUs-page">
+  <!-- Start Loading -->
+  <app-loader *ngIf="loaded"></app-loader>
+  <!-- End Loading -->
+  <!-- Start Header -->
+
+  <app-page-header
+    [headerTitle]="'Contact Us'"
+    [headerImage]="'contactus/contact_us_banner.png'"
+    >
+  </app-page-header>
+  <!-- End Header -->
+  <!-- Start Contact Content -->
+
+  <section class="all-service-page  ">
+    <div class="container">
+      <!-- breadcrumb -->
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li routerLink=""  class="breadcrumb-item">
+            <svg xmlns="http://www.w3.org/2000/svg"  height="23.016" viewBox="0 0 24 23.016">
+              <path id="Home_icon_SVG" data-name="Home icon_SVG" d="M23.728,21.082,13.959,11.25l-.039-.037a2.81,2.81,0,0,0-3.749-.008l-.039.037L.275,21.079A.938.938,0,0,0,1.6,22.406l.744-.743v8.095a3.754,3.754,0,0,0,3.75,3.75H9.469a.937.937,0,0,0,.937-.937V24.93h3.281v7.641a.937.937,0,0,0,.938.938h3.281a3.754,3.754,0,0,0,3.75-3.75.937.937,0,1,0-1.875,0,1.877,1.877,0,0,1-1.875,1.875H15.563V23.993a.937.937,0,0,0-.937-.937H9.469a.937.937,0,0,0-.937.938v7.641H6.094a1.877,1.877,0,0,1-1.875-1.875V19.821q0-.014,0-.028l7.217-7.2a.937.937,0,0,1,1.216,0l7.13,7.177v5.3a.937.937,0,1,0,1.875,0V21.658l.741.746a.937.937,0,0,0,1.33-1.322Z" transform="translate(0 -10.492)" fill="#0055b8"/>
+            </svg>
+            <a >Home</a>
+          </li>
+          <li class="breadcrumb-item active"><a>Contact Us</a></li>
+        </ol>
+      </nav>
+    </div>
+  </section>
+
+  <section class="facts service__category section-space service ">
+    <div class="contact-data">
+      <div class="container py-lg-5">
+        <div class="row facts__content-container service__category__image align-items-center ">
+            <div class="col-lg-6  animate__animated animate__fadeIn animate__delay-1s">
+              <div class="image text-center">
+                <img class="img-fluid " src="assets/img/contactus/contactUs.png">
+
+              </div>
+            </div>
+            <div class="col-lg-6 ">
+                <div class="facts__content mb-4">
+                  <div class="d-flex align-items-center">
+                    <div class="service-container me-2">
+                      <img src="assets/img/contactus/Address.svg" alt="" class="icon--overlay img-fluid">
+                    </div>
+                    <div class="content">
+                      <h5 class="service__sub__title">Address</h5>
+                      <!-- <p class="line-clamp-4 ms-2"><a href="https://maps.app.goo.gl/o2Evatth2HzGjHUp8" target="_blank">Building B4, 5th Floor, Capital Business Park, Sheikh Zayed City, 6th October, Giza, Egypt.</a></p> -->
+                      <p class="line-clamp-4 ms-2"><a href="https://maps.app.goo.gl/o2Evatth2HzGjHUp8" target="_blank">{{ContactData?.address}}</a></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="facts__content mb-4">
+                  <div class="d-flex align-items-center">
+                    <div class="service-container me-2">
+                      <img src="assets/img/contactus/Phone.svg" alt="" class="icon--overlay img-fluid">
+                    </div>
+                    <div class="content">
+                      <h5 class="service__sub__title">Phone & Fax</h5>
+                      <p class="line-clamp-4 ms-2">Phone:
+                        <ng-container *ngFor="let phone of ContactData?.phoneNumber;let i= index">
+                          <a href="tel:{{phone}}" class="mx-1">{{phone}}</a>
+                          <span *ngIf="i < ContactData?.phoneNumber.length - 1">/</span>
+                        </ng-container>
+
+                        <!-- <a href="tel:+202 33052878">+202 33052878</a> / <a href="tel:+202 33052877">+202 33052877</a>   </p> -->
+                      <p class="line-clamp-4 ms-2">Fax: <a href="tel:{{ContactData?.fax}}" class="ms-2">{{ContactData?.fax}}</a>  </p>
+                        </div>
+                  </div>
+                </div>
+                <div class="facts__content">
+                  <div class="d-flex align-items-center">
+                    <div class="service-container me-2">
+                      <img src="assets/img/contactus/Email.svg" alt="" class="icon--overlay img-fluid">
+                    </div>
+                    <div class="content">
+                      <h5 class="service__sub__title">Email</h5>
+                      <ng-container *ngFor="let email of ContactData?.emailAddress">
+                        <p class="line-clamp-4 ms-2"> <a href="mailto: {{email}}">{{email}}</a>  </p>
+
+                      </ng-container>
+                      <!-- <p class="line-clamp-4 ms-2"> <a href="mailto: info@luminsoft.net">info@luminsoft.net</a>  </p>
+                      <p class="line-clamp-4 ms-2"><a href="mailto: support@luminsoft.net">support@luminsoft.net</a>  </p> -->
+                    </div>
+                  </div>
+                </div>
+
+            </div>
+        </div>
+      </div>
+      <div class="footer-section">
+        <span data-title="Location"></span>
+      </div>
+    </div>
+    <!-- <div class="our-facts sub__category__titles">
+        <div class="overlay-sperator">
+            <img src="../../../../assets/img/services/BottomCurvedShape.svg">
+            <div class="section-heading">
+                <span data-title="Location"></span>
+            </div>
+        </div>
+    </div> -->
+    <!-- Start Map -->
+    <div class="sub-category-container page-map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d27635.49359588362!2d31.013168!3d30.024327!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14585b09987e5265%3A0x8593ece9af53ca7e!2sCapital%20Business%20Park!5e0!3m2!1sar!2seg!4v1707749738359!5m2!1sar!2seg"   allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
+    <!-- End Map -->
+    <div class="partners contact-form">
+      <!-- <img src="../../../../assets/img/BG.svg"> -->
+      <div class="section-heading">
+          <h2 data-title="inquiries ">Inquiry Request</h2>
+
+      </div>
+      <div class="parteners--overlay">
+          <div class="container-fluid">
+              <div class="row">
+                  <div class="services-overview pt-5">
+                      <p class="line-clamp-4">Feel free to reach us for any inquiries and one of our representatives will contact you soon
+                      </p>
+                  </div>
+
+              </div>
+          </div>
+          <div class="container">
+
+            <!-- <form  class="form" [formGroup]="contactForm" (ngSubmit)="contactSubmit(contactForm)" >
+                <div class="row g-4 py-5">
+                  <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="form-floating ">
+                      <input type="text" class="form-control" id="Name" placeholder="Name" formControlName="name" name="Name"
+                      [class]="contactForm.get('name')?.errors && contactForm.get('name')?.touched ? 'is-invalid' : '' "  >
+                      <label for="Name">Name</label>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="form-floating ">
+                      <input type="text" class="form-control" id="CompanyName" placeholder="Company Name" formControlName="company" name="Company Name">
+                      <label for="CompanyName">Company Name</label>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="form-floating ">
+                      <input type="email" class="form-control" id="Email" placeholder="E-mail" formControlName="email" name="E-mail"
+                      [class]="contactForm.get('email')?.errors && contactForm.get('email')?.touched ? 'is-invalid' : '' " >
+                      <label for="Email">E-mail</label>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="form-floating ">
+                      <input type="text" class="form-control" id="PhoneNumber" placeholder="Phone Number" formControlName="phone" name="Phone"
+                      [class]="contactForm.get('phone')?.errors && contactForm.get('phone')?.touched ? 'is-invalid' : '' " >
+                      <label for="PhoneNumber">Phone Number</label>
+                    </div>
+                  </div>
+                  <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="form-floating ">
+                      <textarea class="form-control" placeholder="Your Message" id="YourMessage"  formControlName="message" name="Message"
+                      [class]="contactForm.get('message')?.errors && contactForm.get('message')?.touched ? 'is-invalid' : '' " ></textarea>
+                      <label for="YourMessage">Your Message</label>
+                    </div>
+                  </div>
+                  <div class="col-lg-12 text-center ">
+                    <button  class="btn btn-primary px-5" type="submit">Submit
+                      <img src="../../../../assets/img/home/icons/arrow.svg" width="20" class="ms-2">
+                  </button>
+                  </div>
+                </div>
+              </form>-->
+              <form class="form"  action="mailto:info@luminsoft.net" method="post" enctype="text/plain">
+              <div class="row g-4 py-5">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <div class="form-floating ">
+                    <input type="text" class="form-control" id="Name" placeholder="Name"  name="Name" >
+                    <label for="Name">Name</label>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <div class="form-floating ">
+                    <input type="text" class="form-control" id="CompanyName" placeholder="Company Name"  name="Company Name">
+                    <label for="CompanyName">Company Name</label>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <div class="form-floating ">
+                    <input type="email" class="form-control" id="Email" placeholder="E-mail"  name="E-mail"
+                     >
+                    <label for="Email">E-mail</label>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <div class="form-floating ">
+                    <input type="text" class="form-control" id="PhoneNumber" placeholder="Phone Number"  name="Phone" >
+                    <label for="PhoneNumber">Phone Number</label>
+                  </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                  <div class="form-floating ">
+                    <textarea class="form-control" placeholder="Your Message" id="YourMessage"   name="Message" ></textarea>
+                    <label for="YourMessage">Your Message</label>
+                  </div>
+                </div>
+                <div class="col-lg-12 text-center ">
+                  <button  class="btn btn-primary px-5" type="submit">Submit
+                    <img src="../../../../assets/img/home/icons/arrow.svg" width="20" class="ms-2">
+                </button>
+                </div>
+              </div>
+            </form>
+
+          </div>
+      </div>
+
+  </div>
+
+  </section>
+</div>
+
+<div class="section-seprator bg-white">
+  <img src="../../../../assets/img/home/TopCurves.svg">
+</div>

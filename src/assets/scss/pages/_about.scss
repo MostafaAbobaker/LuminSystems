@@ -1,0 +1,280 @@
+.about-page {
+  .section-heading {
+    h2 {
+      &::before {
+        content: attr(data-title) !important;
+        white-space: nowrap;
+      }
+    }
+  }
+  .content-teams {
+    padding: rem(40) 0 rem(180);
+    .card-team {
+      position: relative;
+      width: 90%;
+      margin: auto;
+      margin-bottom: rem(150);
+      &::before {
+        content: '';
+        position: absolute;
+        background-color: $secondary-color;
+        width: 50%;
+        height: 50%;
+        z-index: 1;
+        top: rem(-20);
+        inset-inline-end: rem(-20);
+        border-radius: rem(50);
+      }
+      .image {
+        position: relative;
+        z-index: 3;
+
+        &::after {
+          content: '';
+          position: absolute;
+          width: 95%;
+          height: 95%;
+          top: 2.5%;
+          inset-inline-start: 2.5%;
+          border: rem(2) solid var(--white-color);
+          border-radius: rem(80)  rem(30) ;
+          z-index: 3;
+        }
+        img {
+          width: 100%;
+          height: 380px;
+          object-fit: cover;
+          object-position: center top;
+          border-radius: rem(80)  rem(30);
+          position: relative;
+          z-index: 2;
+        }
+      }
+      .card-title {
+        background-color: $primary-color-dark;
+        color: var(--white-color);
+        border-radius: rem(50);
+        height: 60%;
+        min-width: 87%;
+        position: absolute;
+        display: flex;
+        align-items: flex-end;
+        padding: 25px;
+        padding-bottom: 15px;
+        border: none;
+        margin-inline-start: rem(-20);
+        top: 55%;
+        text-align: center;
+        justify-content: center;
+        font-size: $fs-30;
+        z-index: 2;
+      }
+      .card-text {
+        background-color: rgba($gray-color , .4);
+        color: $primary-color-dark;
+        border-radius: rem(50);
+        font-size: $fs-24;
+        position: absolute;
+        z-index: 1;
+        padding: 150px 25px 15px;
+        text-align: center;
+        margin: 0;
+        top: 77%;
+        inset-inline-start: 0;
+        width: 81.5%;
+      }
+    }
+  }
+  .contact-News {
+    .services-overview {
+      p {
+        max-width: 100%;
+        // padding-inline: rem(150);
+      }
+    }
+  }
+  .contact-News {
+    .card-news  {
+      position: relative;
+      z-index: 1;
+      margin: auto;
+      margin-top: rem(50);
+      width: 95%;
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: -10px;
+        inset-inline-start: -10px;
+        background-color: $secondary-color;
+        height: 50%;
+        width: rem(100);
+        height: rem(100);
+        border-radius: 15px;
+        z-index: 1;
+      }
+      .content-card-news {
+        position: relative;
+        background-color: var(--white-color);
+        padding: rem(35);
+        position: relative;
+        border: 2px solid rgba($primary-color-dark, 0.1);
+        border-radius: 15px;
+        z-index: 2;
+        .title-card-news {
+          font-size: $fs-28;
+          font-weight: bold;
+          position: relative;
+          color: $primary-color;
+          margin-bottom: rem(20);
+          width: 85%;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          &::before {
+            content: '';
+            position: absolute;
+            top: calc(100% + 11px);
+            inset-inline-start: 0;
+            width: rem(60);
+            height: 3px;
+            background-color: $secondary-color;
+          }
+        }
+      }
+      .card-news-body {
+        display: flex;
+        .image {
+          margin-inline-end: 15px;
+          width: rem(100);
+          height: rem(100);
+          flex: 1 0 rem(100);
+          img {
+            width: 100%;
+            border-radius: rem(15);
+          }
+        }
+      }
+      .date {
+        position: absolute;
+        top: -10px;
+        inset-inline-end: -10px;
+        background-color: $primary-color-dark;
+        border-radius: 0px 15px;
+        color: var(--white-color);
+        font-weight: bold;
+        text-align: center;
+        .day {
+          padding: 5px 10px;
+          display: block;
+          font-size: 28px;
+        }
+        .month {
+          display: block;
+          background-color: $secondary-color;
+          color: var(--white-color);
+          font-weight: bold;
+          border-radius: 0px 15px;
+          padding: 5px 10px;
+          font-size: $fs-20;
+        }
+      }
+      .link-card {
+        position: absolute;
+        bottom: rem(-10);
+        inset-inline-end: rem(-10);
+        background-color: rgba($primary-color , .7);
+        text-align: center;
+        width: 70px;
+        padding: rem(12) 0;
+        border-radius: 0rem;
+        border-top-left-radius: rem(15);
+        border-bottom-right-radius: rem(15);
+        img {
+          width: 25px;
+        }
+      }
+    }
+  }
+}
+
+
+
+/* Card Flip */
+.card-flip {
+  position: relative;
+  z-index: 3;
+  width: 100%;
+  height: 380px;
+  perspective: 600px;
+  .card-flip-content {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transform-origin: center right;
+    transition: transform 1s;
+
+    .card__face {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      backface-visibility: hidden;
+      img {
+        width: 100%;
+          height: 380px;
+          // object-fit: cover;
+          // object-position: center top;
+          border-radius: rem(80)  rem(30);
+          position: relative;
+          z-index: 2;
+      }
+      &::after {
+        content: '';
+        position: absolute;
+        width: 95%;
+        height: 95%;
+        top: 2.5%;
+        inset-inline-start: 2.5%;
+        border: rem(2) solid var(--white-color);
+        border-radius: rem(80)  rem(30) ;
+        z-index: 3;
+      }
+    }
+
+    .card__face--front {
+      border-radius: 5rem 1.875rem;
+    }
+
+    .card__face--back {
+    background: linear-gradient(214deg, $primary-color 0%, $secondary-color 100%);
+    color: var(--white-color);
+     transform: rotateY(180deg);
+
+      border-radius: 5rem 1.875rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 25px;
+      line-height: 2rem;
+      font-size: $fs-20;
+      p {
+        text-shadow: 0 0 50px rgba(#000,0.1);
+      }
+    }
+
+
+  }
+  // object-fit: cover;
+  // object-position: center top;
+  // border-radius: 5rem 1.875rem;
+  // position: relative;
+  // z-index: 2;
+
+  &:hover .card-flip-content{
+    transform: translateX(-100%) rotateY(-180deg);
+
+  }
+}
+/* Card Flip */

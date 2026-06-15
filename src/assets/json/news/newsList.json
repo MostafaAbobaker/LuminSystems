@@ -1,0 +1,20 @@
+{
+    "news": [
+      {
+        "newsId": 1,
+        "newsTitle": "Provide an avenue for people",
+        "newsDescription": "news are digital platforms where individuals and organizations share their thoughts, experiences, and expertise with a global audience ..",
+        "newsImage":"blogs/blog1.png",
+        "newsDate":"31,Jan"
+      },
+      {
+        "newsId": 2,
+        "newsTitle": "Joan pushed his breakfast",
+        "newsDescription": "news are digital platforms where individuals and organizations share their thoughts, experiences, and expertise with a global audience ..",
+        "newsImage":"blogs/blog2.png",
+        "newsDate":"30,Mar"
+      }
+
+    ]
+  }
+  

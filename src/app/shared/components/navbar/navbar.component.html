@@ -1,0 +1,165 @@
+<nav id="navbar" [class.scrolled]="isScrolled">
+    <div class="container">
+        <ul class="navbar__top">
+            <li class="nav-item">
+                <a routerLink="/partners"  class="nav-link" aria-current="page" href="#">Partners</a>
+              </li>
+            <li class="nav-item">
+                <a routerLink="/customers"  class="nav-link" aria-current="page" href="#">Customers</a>
+              </li>
+            <li class="nav-item">
+                <a routerLink="/careers"  class="nav-link " aria-current="page" href="#">Careers</a>
+              </li>
+            <!-- <li class="nav-item">
+                <a routerLink="/blogs"  class="nav-link " aria-current="page" href="#">Blogs</a>
+            </li>
+            <li class="nav-item">
+                <a routerLink="/news"  class="nav-link " aria-current="page" href="#">News</a>
+            </li> -->
+            <li class="nav-item">
+                <a routerLink="/contact-us"   class="nav-link" aria-current="page" href="#">Contact Us</a>
+            </li>
+        </ul>
+        <div class="d-flex justify-content-between align-items-center">
+            <img routerLink="" id="logo" src="../../../../assets/img/lumin_logo_systems2.svg">
+            <!-- <img routerLink="" *ngIf="!isScrolled"id="logo" src="../../../../assets/img/logos/Logo.png"> -->
+            <!-- <img routerLink="" *ngIf="isScrolled" id="logo" src="../../../../assets/img/footer/Lumin soft_Logo.png"> -->
+            <ul class="navbar__main">
+                <li class="nav-item">
+                    <a routerLink="/home" routerLinkActive="active"  [routerLinkActiveOptions]="{ exact: true }"  class="nav-link" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a routerLink="/services" routerLinkActive="active"   class="nav-link " aria-current="page" href="#">Services</a>
+                    <ul class="list-group">
+                        <li (click)="openURL($event,'services','Digital-Experience')"  class="list-group-item">
+                            <a >Digital Experience</a>
+                            <svg xmlns="http://www.w3.org/2000/svg" id="Isolation_Mode" data-name="Isolation Mode" viewBox="0 0 24 24">
+                              <path d="M8.127,24l9.507-9.52a3.507,3.507,0,0,0,0-4.948L8.116,0,6,2.121l9.518,9.531a.5.5,0,0,1,0,.707L6.01,21.879Z"/>
+                            </svg>
+                            <ul class="submenu-group">
+                              <li  (click)="openURL($event,'services/Digital-Experience','Customer-Experience')"  class="submenu-group-item">
+                                <a>Customer Experience</a>
+                              </li>
+                              <li (click)="openURL($event,'services/Digital-Experience','Internal-Experience')" class="submenu-group-item">
+                                <a>Internal Experience</a>
+                              </li>
+                            </ul>
+                          </li>
+                        <li  (click)="openURL($event,'services','Operational-Excellence')"   class="list-group-item">
+                            <a>Opertional Excellence</a>
+                            <svg xmlns="http://www.w3.org/2000/svg" id="Isolation_Mode" data-name="Isolation Mode" viewBox="0 0 24 24" ><path d="M8.127,24l9.507-9.52a3.507,3.507,0,0,0,0-4.948L8.116,0,6,2.121l9.518,9.531a.5.5,0,0,1,0,.707L6.01,21.879Z"/></svg>
+                            <ul class="submenu-group">
+                                <li (click)="openURL($event,'services/Operational-Excellence','Development')"  class="submenu-group-item"><a>Development</a></li>
+                                <li (click)="openURL($event,'services/Operational-Excellence','Automation')"   class="submenu-group-item"><a>Automation</a></li>
+                                <li (click)="openURL($event,'services/Operational-Excellence','Integration')"   class="submenu-group-item"><a>Integration</a></li>
+                                <li (click)="openURL($event,'services/Operational-Excellence','Content-Management')"   class="submenu-group-item"><a>Content Management</a></li>
+                                <li (click)="openURL($event,'services/Operational-Excellence','Data-Insights-and-Visualization')"   class="submenu-group-item"><a>Data Insights & Visualization</a></li>
+                                <li (click)="openURL($event,'services/Operational-Excellence','Enterprise-Resource-Planning')"   class="submenu-group-item"><a>Enterprise Resource Planning</a></li>
+                                <li (click)="openURL($event,'services/Operational-Excellence','Customer-Relationship-Management')"   class="submenu-group-item"><a>Customer Relationship Management</a></li>
+                            </ul>
+                        </li>
+                        <li (click)="openURL($event,'services','Artifical-Intelligance')"  class="list-group-item">
+                            <a>Artifical Intelligance</a>
+                            <svg xmlns="http://www.w3.org/2000/svg" id="Isolation_Mode" data-name="Isolation Mode" viewBox="0 0 24 24" ><path d="M8.127,24l9.507-9.52a3.507,3.507,0,0,0,0-4.948L8.116,0,6,2.121l9.518,9.531a.5.5,0,0,1,0,.707L6.01,21.879Z"/></svg>
+                            <ul class="submenu-group">
+                                <li (click)="openURL($event,'services/Artifical-Intelligance','Computer-Vision')"  class="submenu-group-item"><a>Computer Vision</a></li>
+                                <li (click)="openURL($event,'services/Artifical-Intelligance','Machine-Learning-Services(ML)')" class="submenu-group-item"><a>Machine Learning Services (ML)</a></li>
+                                <li (click)="openURL($event,'services/Artifical-Intelligance','NLP–Natural-Language-Processing')"  class="submenu-group-item"><a>NLP – Natural Language Processing </a></li>
+                                <li (click)="openURL($event,'services/Artifical-Intelligance','AI-driven-Business-Automation')"  class="submenu-group-item"><a> AI-driven Business Automation</a></li>
+                            </ul>
+                        </li>
+                        <li (click)="openURL($event,'services','Database-Service')" class="list-group-item">
+                            <a>Database Service</a>
+                            <svg xmlns="http://www.w3.org/2000/svg" id="Isolation_Mode" data-name="Isolation Mode" viewBox="0 0 24 24" ><path d="M8.127,24l9.507-9.52a3.507,3.507,0,0,0,0-4.948L8.116,0,6,2.121l9.518,9.531a.5.5,0,0,1,0,.707L6.01,21.879Z"/></svg>
+                            <ul class="submenu-group">
+                                <li (click)="openURL($event,'services/Database-Service','Administration')"  class="submenu-group-item"><a>Administration</a></li>
+                                <li (click)="openURL($event,'services/Database-Service','Performance-Optimization')"  class="submenu-group-item"><a>Performance Optimization</a></li>
+                                <li (click)="openURL($event,'services/Database-Service','Availability')"  class="submenu-group-item"><a>Availability </a></li>
+                                <li (click)="openURL($event,'services/Database-Service','Migration')"  class="submenu-group-item"><a>Migration</a></li>
+                                <li (click)="openURL($event,'services/Database-Service','Support')"  class="submenu-group-item"><a>Support</a></li>
+                            </ul>
+                        </li>
+                        <li (click)="openURL($event,'services','Consultant-&-OutSourcing')"  class="list-group-item">
+                            <a>Consultant & OutSourcing</a>
+                            <svg xmlns="http://www.w3.org/2000/svg" id="Isolation_Mode" data-name="Isolation Mode" viewBox="0 0 24 24" ><path d="M8.127,24l9.507-9.52a3.507,3.507,0,0,0,0-4.948L8.116,0,6,2.121l9.518,9.531a.5.5,0,0,1,0,.707L6.01,21.879Z"/></svg>
+                            <ul class="submenu-group">
+                                <li  (click)="openURL($event,'services/Consultant-&-OutSourcing','Dedicated-Development-Team')"  class="submenu-group-item"><a>Dedicated Development Team</a>
+                                <li  (click)="openURL($event,'services/Consultant-&-OutSourcing','Dedicated-UI-UX-Team')"  class="submenu-group-item"><a>Dedicated UI/UX Team</a>
+                                <li  (click)="openURL($event,'services/Consultant-&-OutSourcing','Dedicated-Project-Team')" class="submenu-group-item"><a>Dedicated Project Team</a>
+                                <li  (click)="openURL($event,'services/Consultant-&-OutSourcing','Dedicated-QA-Team')" class="submenu-group-item"><a>Dedicated QA Team</a>
+                                <li  (click)="openURL($event,'services/Consultant-&-OutSourcing','Consultancy-Services')"  class="submenu-group-item"><a>Consultancy Services</a>
+                            </ul>
+                        </li>
+                        <li (click)="openURL($event,'services','Card-Issuing-Service')" [routerLink]="['/services', 'Card-Issuing-Service']" class="list-group-item">
+                            <a>Card Issuing Srevice</a>
+                            <svg xmlns="http://www.w3.org/2000/svg" id="Isolation_Mode" data-name="Isolation Mode" viewBox="0 0 24 24" ><path d="M8.127,24l9.507-9.52a3.507,3.507,0,0,0,0-4.948L8.116,0,6,2.121l9.518,9.531a.5.5,0,0,1,0,.707L6.01,21.879Z"/></svg>
+                            <ul class="submenu-group">
+                                <li  (click)="openURL($event,'services/Card-Issuing-Service','EMV-Script-Development')"   class="submenu-group-item"><a>EMV Script Development</a></li>
+                                <li  (click)="openURL($event,'services/Card-Issuing-Service','Smart-Card-Applet-Development')"   class="submenu-group-item"><a>Smart Card Applet Development</a></li>
+                                <li  (click)="openURL($event,'services/Card-Issuing-Service','E-ID-and-E-Passports-and-Access-Cards')"   class="submenu-group-item"><a> E-ID and E-Passports and Access Cards</a></li>
+                                <li  (click)="openURL($event,'services/Card-Issuing-Service','Entrust-Authentication-Software-Platforms')"   class="submenu-group-item"><a> Entrust® authentication software platforms</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a  routerLink="/products" routerLinkActive="active"  class="nav-link " aria-current="page" >Products</a>
+                    <ul class="list-group">
+                        <li (click)="openURL($event,'products','eNroll')"    class="list-group-item"><a>eNroll</a></li>
+                        <li (click)="openURL($event,'products','SWAP')"    class="list-group-item"><a>Swap</a></li>
+                        <li (click)="openURL($event,'products','Notify')"   class="list-group-item"><a>Notify</a></li>
+                        <!-- <li (click)="openURL($event,'','coming-soon')"   class="list-group-item">
+                            <a>eVision</a>
+                            <svg xmlns="http://www.w3.org/2000/svg" id="Isolation_Mode" data-name="Isolation Mode" viewBox="0 0 24 24" ><path d="M8.127,24l9.507-9.52a3.507,3.507,0,0,0,0-4.948L8.116,0,6,2.121l9.518,9.531a.5.5,0,0,1,0,.707L6.01,21.879Z"/></svg>
+                            <ul class="submenu-group">
+                                <li  (click)="openURL($event,'','coming-soon')"   class="submenu-group-item"><a> eFoot</a></li>
+                                <li  (click)="openURL($event,'','coming-soon')"   class="submenu-group-item"><a>eTrainer</a></li>
+                                <li  (click)="openURL($event,'','coming-soon')"   class="submenu-group-item"><a>eGolf</a></li>
+                            </ul>
+                        </li>  -->
+                        <li  (click)="openURL($event,'products','Pitchplus')" class="list-group-item"><a>Pitch+</a></li>
+                        <li  (click)="openURL($event,'products','FitMateplus')" class="list-group-item"><a>FitMate+</a></li>
+                        <li  (click)="openURL($event,'products','Form-Management')" class="list-group-item"><a>Form Management</a></li>
+                        <li  (click)="openURL($event,'products','ID-Hub')"  class="list-group-item"><a> ID Hub</a></li>
+                        <li  (click)="openURL($event,'products','Lumin-One-ECM')"  class="list-group-item"><a>Lumin One ECM</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a routerLink="/industries" class="nav-link " aria-current="page" >Industries</a>
+                    <ul class="list-group">
+                        <li (click)="openURL($event,'industries','Government')" class="list-group-item"><a>Government</a></li>
+                        <li (click)="openURL($event,'industries','Banking-and-Finance')" class="list-group-item"><a>Banking & Finance</a></li>
+                        <li (click)="openURL($event,'industries','Insurance')" class="list-group-item"><a>Insurance</a></li>
+                        <li (click)="openURL($event,'industries','Sports')" class="list-group-item"><a>Sports</a></li>
+                        <li (click)="openURL($event,'industries','Retail')" class="list-group-item"><a>Retail</a></li>
+                        <li (click)="openURL($event,'industries','Telecommunications')" class="list-group-item"><a>Telecommunication</a></li>
+                        <li (click)="openURL($event,'industries','Real-Estate')" class="list-group-item"><a>Real-Estate</a></li>
+                        <li (click)="openURL($event,'industries','Education')" class="list-group-item"><a>Education</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a routerLink="/technologies"  class="nav-link " aria-current="page">Technologies</a>
+                    <ul class="list-group">
+                        <li (click)="openURL($event,'technologies','Odoo')"  class="list-group-item"><a>Odoo</a></li>
+                        <li (click)="openURL($event,'technologies','Microsoft')"   class="list-group-item"><a>Microsoft</a></li>
+                        <li (click)="openURL($event,'technologies','Technology-Stack')"   class="list-group-item"><a>Technology Stack</a></li>
+                        <li (click)="openURL($event,'technologies','AI-Technology-Stack')"   class="list-group-item"><a>AI Technology Stack</a></li>
+                        <li (click)="openURL($event,'technologies','ENTRUST')"   class="list-group-item"><a>ENTRUST</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a routerLink="/about-us"   class="nav-link" aria-current="page">About Us</a>
+                </li>
+            </ul>
+            <button  (click)="toggleSideMenu()"  class="sidebar-toggle" type="button">
+                <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+            </button>
+        </div>
+    </div>
+
+</nav>
+
+
+
+
+

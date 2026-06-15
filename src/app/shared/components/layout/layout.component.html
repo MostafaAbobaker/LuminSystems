@@ -1,0 +1,13 @@
+<main id="sidebar-wrapper" class="sidebar-wrapper" [ngClass]="sideMenuToggled?'sidebar-show':''">
+    <app-navbar
+        (sideMenuToggled)="toggleSideMenu($event)">
+    </app-navbar>
+    <app-sidebar 
+        (sideMenuToggledChange)="handleSideMenuToggledChange($event)">
+    </app-sidebar>
+    <section class="page-content">
+        <router-outlet></router-outlet>
+    </section>
+    <app-footer></app-footer>
+    <div class="sidenav-backdrop" (click)="closeSideMenu()" [ngClass]="sideMenuToggled && isSmallScreen?'active':''"></div>
+</main>

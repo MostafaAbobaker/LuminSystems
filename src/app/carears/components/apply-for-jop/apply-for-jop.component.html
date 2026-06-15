@@ -1,0 +1,409 @@
+<app-loader *ngIf="loaded"></app-loader>
+<app-page-header [headerTitle]="'Careers'" [headerImage]="'career/header.jpg'" id="careerHeader">
+</app-page-header>
+
+<div class="all-service-page apply-job">
+  <div class="container">
+    <!-- breadcrumb -->
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li routerLink="" class="breadcrumb-item ">
+          <svg xmlns="http://www.w3.org/2000/svg" height="23.016" viewBox="0 0 24 23.016">
+            <path id="Home_icon_SVG" data-name="Home icon_SVG"
+              d="M23.728,21.082,13.959,11.25l-.039-.037a2.81,2.81,0,0,0-3.749-.008l-.039.037L.275,21.079A.938.938,0,0,0,1.6,22.406l.744-.743v8.095a3.754,3.754,0,0,0,3.75,3.75H9.469a.937.937,0,0,0,.937-.937V24.93h3.281v7.641a.937.937,0,0,0,.938.938h3.281a3.754,3.754,0,0,0,3.75-3.75.937.937,0,1,0-1.875,0,1.877,1.877,0,0,1-1.875,1.875H15.563V23.993a.937.937,0,0,0-.937-.937H9.469a.937.937,0,0,0-.937.938v7.641H6.094a1.877,1.877,0,0,1-1.875-1.875V19.821q0-.014,0-.028l7.217-7.2a.937.937,0,0,1,1.216,0l7.13,7.177v5.3a.937.937,0,1,0,1.875,0V21.658l.741.746a.937.937,0,0,0,1.33-1.322Z"
+              transform="translate(0 -10.492)" fill="#0055b8" />
+          </svg>
+          <a>Home</a>
+        </li>
+        <li class="breadcrumb-item " routerLink="/careers"><a>Career</a></li>
+        <li class="breadcrumb-item " routerLink="/careers/explore-jobs"><a>Opportunities</a></li>
+        <li class="breadcrumb-item active" routerLink="/apply-for-job"><a>Senior Project Manger</a></li>
+      </ol>
+    </nav>
+
+    <div class="privacy-container career-info-container my-5">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="career-info">
+            <svg xmlns="http://www.w3.org/2000/svg" id="calendar_icon" width="18" height="18" viewBox="0 0 18 18">
+              <path id="Path_3294" data-name="Path 3294" d="M0,0H1.5V1.5H0Z" transform="translate(8 8)"
+                fill="#8ca7c6" />
+              <path id="Path_3285" data-name="Path 3285"
+                d="M15.891,1.406h-.844V0H13.641V1.406H4.359V0H2.953V1.406H2.109A2.112,2.112,0,0,0,0,3.516V15.891A2.112,2.112,0,0,0,2.109,18H9.343a6.2,6.2,0,0,1-1.254-1.406H2.109a.7.7,0,0,1-.7-.7V6.609H16.594v1.48A6.2,6.2,0,0,1,18,9.343V3.516A2.112,2.112,0,0,0,15.891,1.406Zm.7,3.8H1.406V3.516a.7.7,0,0,1,.7-.7h.844V4.219H4.359V2.813h9.281V4.219h1.406V2.813h.844a.7.7,0,0,1,.7.7Z"
+                fill="#8ca7c6" />
+              <path id="Path_3286" data-name="Path 3286"
+                d="M246.746,242a4.746,4.746,0,1,0,4.746,4.746A4.751,4.751,0,0,0,246.746,242Zm0,8.086a3.34,3.34,0,1,1,3.34-3.34A3.344,3.344,0,0,1,246.746,250.086Z"
+                transform="translate(-233.492 -233.492)" fill="#8ca7c6" />
+              <path id="Path_3287" data-name="Path 3287" d="M357.406,310H356v3.059h2.6v-1.406h-1.2Z"
+                transform="translate(-344.047 -298.529)" fill="#8ca7c6" />
+              <path id="Path_3293" data-name="Path 3293" d="M0,0H1.5V1.5H0Z" transform="translate(5 11)"
+                fill="#8ca7c6" />
+              <path id="Path_3292" data-name="Path 3292" d="M0,0H1.5V1.5H0Z" transform="translate(2 11)"
+                fill="#8ca7c6" />
+              <path id="Path_3291" data-name="Path 3291" d="M0,0H1.5V1.5H0Z" transform="translate(2 8)"
+                fill="#8ca7c6" />
+              <path id="Path_3288" data-name="Path 3288" d="M0,0H1.5V1.5H0Z" transform="translate(2 14)"
+                fill="#8ca7c6" />
+              <path id="Path_3290" data-name="Path 3290" d="M0,0H1.5V1.5H0Z" transform="translate(5 8)"
+                fill="#8ca7c6" />
+              <path id="Path_3289" data-name="Path 3289" d="M0,0H1.5V1.5H0Z" transform="translate(5 14)"
+                fill="#8ca7c6" />
+            </svg>
+            <span class="mx-2">{{jobDetail.createDate | formatDate}}</span>
+          </div>
+          <div class="career-info">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17.98" viewBox="0 0 18 17.98">
+              <g id="job_type_icon" data-name="job type_icon" transform="translate(-9.336 -9.361)">
+                <path id="Path_3295" data-name="Path 3295"
+                  d="M30.425,17.563a.4.4,0,0,0,.4-.4v-.635a.4.4,0,0,0-.794,0v.635A.4.4,0,0,0,30.425,17.563Z"
+                  transform="translate(-12.475 -4.083)" fill="#8ca7c6" />
+                <path id="Path_3296" data-name="Path 3296"
+                  d="M20.783,21.331a.4.4,0,1,0,.562-.562l-.449-.449a.4.4,0,0,0-.562.562Z"
+                  transform="translate(-6.56 -6.538)" fill="#8ca7c6" />
+                <path id="Path_3297" data-name="Path 3297"
+                  d="M17.191,30.02h-.635a.4.4,0,0,0,0,.794h.635a.4.4,0,0,0,0-.794Z"
+                  transform="translate(-4.113 -12.455)" fill="#8ca7c6" />
+                <path id="Path_3298" data-name="Path 3298"
+                  d="M20.795,38.816l-.449.449a.4.4,0,1,0,.562.562l.449-.449a.4.4,0,1,0-.562-.562Z"
+                  transform="translate(-6.568 -17.688)" fill="#8ca7c6" />
+                <path id="Path_3299" data-name="Path 3299"
+                  d="M30.442,42.291a.4.4,0,0,0-.4.4v.635a.4.4,0,0,0,.794,0v-.635A.4.4,0,0,0,30.442,42.291Z"
+                  transform="translate(-12.485 -19.853)" fill="#8ca7c6" />
+                <path id="Path_3300" data-name="Path 3300"
+                  d="M42.712,30.8h.635a.4.4,0,1,0,0-.794h-.635a.4.4,0,1,0,0,.794Z"
+                  transform="translate(-19.883 -12.445)" fill="#8ca7c6" />
+                <path id="Path_3301" data-name="Path 3301"
+                  d="M39.11,21.436a.4.4,0,0,0,.281-.116l.449-.449a.4.4,0,0,0-.562-.562l-.449.449a.4.4,0,0,0,.281.678Z"
+                  transform="translate(-17.711 -6.53)" fill="#8ca7c6" />
+                <path id="Path_3302" data-name="Path 3302"
+                  d="M27.43,23.8V21.587a.4.4,0,0,0-.794,0V23.8a1.35,1.35,0,0,0-.955,1.286,1.333,1.333,0,0,0,.162.629l-1.33,1.33a.4.4,0,1,0,.562.562l1.33-1.33a1.336,1.336,0,0,0,.629.162,1.349,1.349,0,0,0,.4-2.639Zm-.4,1.845a.558.558,0,1,1,.558-.558A.559.559,0,0,1,27.033,25.648Z"
+                  transform="translate(-9.08 -7.132)" fill="#8ca7c6" />
+                <path id="Path_3303" data-name="Path 3303"
+                  d="M26.23,20.325a8.5,8.5,0,0,0,.333-2.351,8.637,8.637,0,1,0-6.234,8.268,4.182,4.182,0,0,0,5.9-5.917Zm-16.1-2.351a7.819,7.819,0,1,1,15.638,0,7.748,7.748,0,0,1-.2,1.764,4.2,4.2,0,0,0-.726-.415,7.024,7.024,0,1,0-6.892,5.671,6.871,6.871,0,0,0,1.374-.138,4.157,4.157,0,0,0,.417.725,7.82,7.82,0,0,1-9.61-7.607Zm8.827,5.178a4.185,4.185,0,0,0,.112.947,6.107,6.107,0,0,1-1.12.1,6.231,6.231,0,1,1,6.133-5.13,4.177,4.177,0,0,0-5.124,4.08Zm4.189,3.4a3.395,3.395,0,1,1,3.395-3.395A3.4,3.4,0,0,1,23.147,26.547Z"
+                  transform="translate(0 0)" fill="#8ca7c6" />
+                <path id="Path_3304" data-name="Path 3304"
+                  d="M42.5,39.445h-.587v-.428a.812.812,0,0,0-.811-.811H39.994a.812.812,0,0,0-.811.811v.428H38.6a.4.4,0,0,0-.4.4v2.284a.4.4,0,0,0,.4.4h3.9a.4.4,0,0,0,.4-.4V39.842A.4.4,0,0,0,42.5,39.445ZM39.994,39l1.124.016v.428H39.986ZM42.1,41.729H38.994v-1.49H42.1Z"
+                  transform="translate(-17.401 -17.39)" fill="#8ca7c6" />
+              </g>
+            </svg>
+            <span class="mx-2">{{JobUtilityService.getJobConditionText(jobDetail.jobCondition)}} /
+              {{JobUtilityService.getTypeText(jobDetail.jobType)}} </span>
+          </div>
+          <div class="career-info">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"
+              style="vertical-align: bottom;">
+              <g id="job_level_icon" transform="translate(-9 -9)">
+                <rect id="base" x="10" y="16" width="16" height="2" fill="#8ca7c6" />
+                <rect id="middle_step" x="12" y="13" width="12" height="2" fill="#8ca7c6" />
+                <rect id="top_step" x="14" y="10" width="8" height="2" fill="#8ca7c6" />
+                <path d="M12,16 V13" stroke="#8ca7c6" stroke-width="0.5" />
+                <path d="M20,16 V13" stroke="#8ca7c6" stroke-width="0.5" />
+                <path d="M14,13 V10" stroke="#8ca7c6" stroke-width="0.5" />
+                <path d="M18,13 V10" stroke="#8ca7c6" stroke-width="0.5" />
+              </g>
+            </svg>
+
+            <span class="mx-2">{{JobUtilityService.getLevelText(jobDetail.jobType)}}</span>
+
+          </div>
+
+        </div>
+        <div class="col-lg-6">
+          <div class="d-flex justify-content-end my-4">
+            <button (click)="applyJob()" class="btn btn-secondary">Apply Now
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20.359" viewBox="0 0 33.34 20.359">
+                <g id="Read_More_Arrow" data-name="Read More Arrow" transform="translate(-601 -3912.647)">
+                  <path id="Icon_awesome-arrow-right" data-name="Icon awesome-arrow-right"
+                    d="M9.333,4.011l1.035-1.035a1.114,1.114,0,0,1,1.58,0l9.063,9.058a1.114,1.114,0,0,1,0,1.58l-9.063,9.063a1.114,1.114,0,0,1-1.58,0L9.333,21.643a1.12,1.12,0,0,1,.019-1.6l5.618-5.352H1.57c-.62,0,.207-1.1.207-1.782v-.166c0-.684-.827-1.782-.207-1.782h13.4L9.351,5.61A1.112,1.112,0,0,1,9.333,4.011Z"
+                    transform="translate(613 3910)" fill="#fff" />
+                  <path id="Path_93" data-name="Path 93"
+                    d="M1.625,0c.9,0,1.625,1.091,1.625,2.438S2.522,4.875,1.625,4.875,0,3.784,0,2.438.728,0,1.625,0Z"
+                    transform="translate(609.375 3920.563)" fill="#fff" />
+                  <path id="Path_92" data-name="Path 92"
+                    d="M1.5,0C2.328,0,3,.9,3,2S2.328,4,1.5,4,0,3.1,0,2,.672,0,1.5,0Z" transform="translate(605 3921)"
+                    fill="#fff" />
+                  <path id="Path_91" data-name="Path 91"
+                    d="M1.25,0C1.94,0,2.5.746,2.5,1.667S1.94,3.333,1.25,3.333,0,2.587,0,1.667.56,0,1.25,0Z"
+                    transform="translate(601 3921.333)" fill="#fff" />
+                </g>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <h2>{{jobDetail.jobTitle}}</h2>
+      <h4>Job Description</h4>
+      <p class="line-clamp-4">{{jobDetail.jobDescription}}</p>
+      <h4>Qualifications</h4>
+      {{jobDetail.jobQualifications}}
+      <h4>Responsibilities</h4>
+      {{jobDetail.jobReponsibilities}}
+      <h4>Job Benefits</h4>
+      {{jobDetail.jobBenefits}}
+      <div class="d-flex justify-content-center my-4 py-5">
+        <button (click)="applyJob()" class="btn btn-secondary">Apply Now
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20.359" viewBox="0 0 33.34 20.359">
+            <g id="Read_More_Arrow" data-name="Read More Arrow" transform="translate(-601 -3912.647)">
+              <path id="Icon_awesome-arrow-right" data-name="Icon awesome-arrow-right"
+                d="M9.333,4.011l1.035-1.035a1.114,1.114,0,0,1,1.58,0l9.063,9.058a1.114,1.114,0,0,1,0,1.58l-9.063,9.063a1.114,1.114,0,0,1-1.58,0L9.333,21.643a1.12,1.12,0,0,1,.019-1.6l5.618-5.352H1.57c-.62,0,.207-1.1.207-1.782v-.166c0-.684-.827-1.782-.207-1.782h13.4L9.351,5.61A1.112,1.112,0,0,1,9.333,4.011Z"
+                transform="translate(613 3910)" fill="#fff" />
+              <path id="Path_93" data-name="Path 93"
+                d="M1.625,0c.9,0,1.625,1.091,1.625,2.438S2.522,4.875,1.625,4.875,0,3.784,0,2.438.728,0,1.625,0Z"
+                transform="translate(609.375 3920.563)" fill="#fff" />
+              <path id="Path_92" data-name="Path 92" d="M1.5,0C2.328,0,3,.9,3,2S2.328,4,1.5,4,0,3.1,0,2,.672,0,1.5,0Z"
+                transform="translate(605 3921)" fill="#fff" />
+              <path id="Path_91" data-name="Path 91"
+                d="M1.25,0C1.94,0,2.5.746,2.5,1.667S1.94,3.333,1.25,3.333,0,2.587,0,1.667.56,0,1.25,0Z"
+                transform="translate(601 3921.333)" fill="#fff" />
+            </g>
+          </svg>
+        </button>
+      </div>
+
+    </div>
+
+
+  </div>
+  <div *ngIf="showForm" class="partners">
+    <!-- <img src="../../../../assets/img/BG.svg"> -->
+    <div class="section-heading">
+      <h2>Application Form </h2>
+    </div>
+    <div class="parteners--overlay">
+      <div class="container">
+        <form id="jobForm" [formGroup]="form">
+          <div class="row g-3">
+            <div class="col-lg-6">
+              <div class="mb-3">
+                <label for="firstname" class="form-label">First Name</label>
+                <input type="text" class="form-control" formControlName="FirstName">
+                <div class="alert alert-danger mt-1 alert-custom" role="alert"
+                  *ngIf="form.get('FirstName')?.touched && form.get('FirstName')?.hasError('required')">
+                  This field is required.
+                </div>
+                <div class="alert alert-danger mt-1 alert-custom" role="alert"
+                  *ngIf="form.get('FirstName')?.touched && form.get('FirstName')?.hasError('pattern')">
+                  Please enter alphabetic characters only, should not start with space..
+                </div>
+                <div class="alert alert-danger mt-1 alert-custom" role="alert"
+                  *ngIf="form.get('FirstName')?.touched && form.get('FirstName')?.errors?.['maxlength']">
+                  First Name cannot exceed 20 characters.
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="mb-3">
+                <label for="firstname" class="form-label">Last Name</label>
+                <input type="text" class="form-control" formControlName="LastName">
+                <div class="alert alert-danger mt-1 alert-custom" role="alert"
+                  *ngIf=" form.get('LastName')?.touched && form.get('LastName')?.hasError('required')">
+                  this field is required
+                </div>
+                <div class="alert alert-danger mt-1 alert-custom" role="alert"
+                  *ngIf=" form.get('LastName')?.touched && form.get('LastName')?.hasError('pattern')">
+                  Please enter alphabetic characters only, should not start with space.
+                </div>
+                <div class="alert alert-danger mt-1 alert-custom" role="alert"
+                  *ngIf="form.get('LastName')?.touched && form.get('LastName')?.errors?.['maxlength']">
+                  Last Name cannot exceed 20 characters.
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="mb-3">
+                <label for="firstname" class="form-label">Email</label>
+                <input type="text" class="form-control" formControlName="Email">
+                <div class="alert alert-danger mt-1 alert-custom" role="alert"
+                  *ngIf=" form.get('Email')?.touched && form.get('Email')?.hasError('required')">
+                  this field is required
+                </div>
+                <div class="alert alert-danger mt-1 alert-custom" role="alert"
+                  *ngIf=" form.get('Email')?.touched && form.get('Email')?.hasError('pattern')">
+                  Please enter a valid email address, should not start with space.
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="mb-3">
+                <label for="firstname" class="form-label">PhoneNumber</label>
+                <input type="text" class="form-control" formControlName="PhoneNumber">
+                <div class="alert alert-danger mt-1 alert-custom" role="alert"
+                  *ngIf=" form.get('PhoneNumber')?.touched && form.get('PhoneNumber')?.hasError('required')">
+                  this field is required
+                </div>
+                <div class="alert alert-danger mt-1 alert-custom" role="alert"
+                  *ngIf="form.get('PhoneNumber')?.touched && form.get('PhoneNumber')?.hasError('numeric')">
+                  Phone number must contain only numbers.
+                </div>
+                <div class="alert alert-danger mt-1 alert-custom" role="alert"
+                  *ngIf="form.get('PhoneNumber')?.touched && form.get('PhoneNumber')?.errors?.['maxlength']">
+                  Phone number cannot exceed 11 digits.
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="mb-3">
+                <label for="firstname" class="form-label">ExpectedSalary(EGP)</label>
+                <input type="text" class="form-control" formControlName="ExpectedSalary">
+                <div class="alert alert-danger mt-1 alert-custom" role="alert"
+                  *ngIf="form.get('ExpectedSalary')?.touched && form.get('ExpectedSalary')?.hasError('required')">
+                  this field is required
+                </div>
+                <div class="alert alert-danger mt-1 alert-custom" role="alert"
+                  *ngIf="form.get('ExpectedSalary')?.touched && form.get('ExpectedSalary')?.hasError('pattern')">
+                  Expected Salary must contain only numbers
+                </div>
+                <div class="alert alert-danger mt-1 alert-custom" role="alert"
+                  *ngIf="form.get('ExpectedSalary')?.touched && form.get('ExpectedSalary')?.errors?.['maxlength']">
+                  Expected Salary cannot exceed 5 digits.
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="mb-3">
+                <label for="firstname" class="form-label">NoticePeriod</label>
+                <input type="text" class="form-control" formControlName="NoticePeriod">
+                <div class="alert alert-danger mt-1 alert-custom" role="alert"
+                  *ngIf="form.get('NoticePeriod')?.touched && form.get('NoticePeriod')?.hasError('required')">
+                  this field is required
+                </div>
+                <div class="alert alert-danger mt-1 alert-custom" role="alert"
+                  *ngIf="form.get('NoticePeriod')?.touched && form.get('NoticePeriod')?.hasError('pattern')">
+                  Notice Period must contain only letters, numbers, should not start with space
+                </div>
+                <div class="alert alert-danger mt-1 alert-custom" role="alert"
+                  *ngIf="form.get('NoticePeriod')?.touched && form.get('NoticePeriod')?.errors?.['maxlength']">
+                  Notice Period cannot exceed 20 characters.
+                </div>
+              </div>
+            </div>
+
+            <div class="row" formArrayName="ApplicantQuestionOption">
+              <div *ngFor="let question of getJobQuestionsControl(); let i = index" [formGroupName]="i" class="col-6">
+                <!-- Access properties correctly -->
+                <div class="mb-3" *ngIf="question.get('questionType')?.value == QuestionType.TextBox">
+                  <label for="response{{i}}" class="form-label">{{ question.get('questionText')?.value }}</label>
+                  <input type="text" id="response{{i}}" class="form-control" formControlName="answerText">
+
+                  <div class="alert alert-danger mt-1 alert-custom" role="alert"
+                    *ngIf="question.get('answerText')?.touched && question.get('answerText')?.errors?.['maxlength']">
+                    Answer cannot exceed 200 characters.
+                  </div>
+
+                </div>
+
+                <div *ngIf="question.get('questionType')?.value === QuestionType.DropDownList">
+                  <div class="col-lg-6">
+                    <div class="mb-3">
+                      <label for="dropdown-{{i}}" class="form-label">{{question.get('questionText')?.value}}</label>
+                      <select formControlName="answerText" (change)="HandleDropDown($event, i)" class="form-select"
+                        aria-label="Default select example" id="dropdown-{{i}}">
+                        <option
+                          *ngFor="let questionOption of question.get('jobQuestionOptions')?.value; let idx = index"
+                          [value]="questionOption.optionText" [attr.data-index]="idx">
+                          {{ questionOption.optionText }}
+                        </option>
+                      </select>
+
+                    </div>
+                  </div>
+                </div>
+
+
+                <div *ngIf="question.get('questionType')?.value === QuestionType.RadioButton">
+
+                  <label class="form-label">{{question.get('questionText')?.value}}</label>
+                  <div *ngFor="let option of question.get('jobQuestionOptions')?.value; let j = index">
+                    <div class="form-check">
+                      <input class="form-check-input" (change)="HandleRadioButton($event, i, j)" type="radio"
+                        [value]="option.optionText" formControlName="answerText" [id]="'radio-' + option.jobQuestionId">
+
+                      <label class="form-check-label" [for]="'radio-' + option.jobQuestionId">
+                        {{ option.optionText }}
+                      </label>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div *ngIf="question.get('questionType')?.value === QuestionType.CheckBox">
+                  <label class="form-label">{{ question.get('questionText')?.value }}
+
+                    <!-- Using .controls to access the iterable array of form groups/controls -->
+                    <div *ngFor="let option of getJobQuestionsOptionControl(i); let j = index" [formGroupName]="j">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" formControlName="isChecked"
+                          [checked]="option.get('isChecked')?.value" (change)="HandleCheckBox($event, i, j)">
+                        <label class="form-check-label">
+                          {{ option.get('optionText')?.value }}
+                        </label>
+                      </div>
+                    </div>
+
+
+                  </label>
+                </div>
+              </div>
+
+
+              <div class="col-lg-12">
+                <div class="mb-3">
+                  <div class="box-fileupload">
+                    <input type="file" id="fileId" (change)="uploadFile($event, 'CVFile')"
+                      class="form-control file-upload-input" name="files" accept=".pdf"> <label for="fileId"
+                      class="file-upload-btn"></label>
+                    <p class="box-fileupload__lable">Upload Your CV</p>
+                    <p class="box-fileupload__sublable">Acceptable file types "Word, PDF and JPG". Maximum file size
+                      5MB.
+                    </p>
+                  </div>
+                  <div class="alert alert-danger mt-1 alert-custom" role="alert"
+                    *ngIf="form.get('CVFile')?.touched && form.get('CVFile')?.hasError('required')">
+                    CV File is required
+                  </div>
+                </div>
+                <div class="file__viewer" *ngIf="CVName.length > 0">
+                  <span>{{CVName}}</span>
+                </div>
+              </div>
+
+
+            </div>
+
+            <div class="d-flex justify-content-center my-4">
+              <button (click)="submit()" class="btn btn-secondary">Send Yor Application
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20.359" viewBox="0 0 33.34 20.359">
+                  <g id="Read_More_Arrow" data-name="Read More Arrow" transform="translate(-601 -3912.647)">
+                    <path id="Icon_awesome-arrow-right" data-name="Icon awesome-arrow-right"
+                      d="M9.333,4.011l1.035-1.035a1.114,1.114,0,0,1,1.58,0l9.063,9.058a1.114,1.114,0,0,1,0,1.58l-9.063,9.063a1.114,1.114,0,0,1-1.58,0L9.333,21.643a1.12,1.12,0,0,1,.019-1.6l5.618-5.352H1.57c-.62,0,.207-1.1.207-1.782v-.166c0-.684-.827-1.782-.207-1.782h13.4L9.351,5.61A1.112,1.112,0,0,1,9.333,4.011Z"
+                      transform="translate(613 3910)" fill="#fff" />
+                    <path id="Path_93" data-name="Path 93"
+                      d="M1.625,0c.9,0,1.625,1.091,1.625,2.438S2.522,4.875,1.625,4.875,0,3.784,0,2.438.728,0,1.625,0Z"
+                      transform="translate(609.375 3920.563)" fill="#fff" />
+                    <path id="Path_92" data-name="Path 92"
+                      d="M1.5,0C2.328,0,3,.9,3,2S2.328,4,1.5,4,0,3.1,0,2,.672,0,1.5,0Z" transform="translate(605 3921)"
+                      fill="#fff" />
+                    <path id="Path_91" data-name="Path 91"
+                      d="M1.25,0C1.94,0,2.5.746,2.5,1.667S1.94,3.333,1.25,3.333,0,2.587,0,1.667.56,0,1.25,0Z"
+                      transform="translate(601 3921.333)" fill="#fff" />
+                  </g>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </form>
+
+
+      </div>
+    </div>
+
+  </div>
+  <div *ngIf="showForm" class="section-seprator bg-white">
+    <img src="../../../../assets/img/home/TopCurves.svg">
+  </div>
+  <div *ngIf="!showForm" class="section-seprator bg-service">
+    <img src="../../../../assets/img/home/TopCurves.svg">
+  </div>
+
+</div>

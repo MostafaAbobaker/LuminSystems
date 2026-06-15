@@ -1,0 +1,260 @@
+{
+    "services": [
+      {
+        "serviceCategoryId": 1,
+        "serviceImg":"../../../../assets/img/services/Services Photos/Digital Experience/digital-experience.png",
+        "serviceCategoryTitle": "Digital-Experience",
+        "serviceCategoryHeadingTitle": "Digital Experience",
+        "serviceCategoryContent": "Lumin Soft Digital Experience services redefine and transform the way you interact with your customers and streamline your internal processes in an era where businesses thrive on connectivity, customer satisfaction, and internal efficiency .",
+        "serviceCategorySubHeadingTitle": "Elevating Interactions and Building Loyalty",
+        "serviceCategorySubContent": "Our comprehensive solutions are designed to enhance both Customer and Internal Experiences, elevating customer satisfaction through personalized touchpoints and seamless engagement. Simultaneously, boosting internal productivity with user-friendly tools, collaborative platforms, and streamlined workflows.",
+        "serviceSubCategoryList": [
+          {
+            "serviceId": "1",
+            "serviceNavigationTitle":"Customer-Experience",
+            "serviceTitle": "Customer Experience",
+            "serviceDesc": "Elevate your customer satisfaction with tailored solutions, delivering personalized ..",
+            "serviceImg": "services/icons/customer-experience.svg"
+          },
+          {
+            "serviceId": "2",
+            "serviceNavigationTitle":"Internal-Experience",
+            "serviceTitle": "Internal Experience",
+            "serviceDesc": "Transform your internal dynamics with our user-friendly tools & collaborative platforms ..",
+            "serviceImg": "services/icons/internal-experience.svg"
+          }
+        ]
+      },
+      {
+        "serviceCategoryId": 2,
+        "serviceImg":"../../../../assets/img/services/Services Photos/Operational Excellence/operational excellence.png",
+        "serviceCategoryTitle": "Operational-Excellence",
+        "serviceCategoryHeadingTitle": "Operational Excellence",
+        "serviceCategoryContent": "Lumin Soft specializes in crafting tailored software solutions that optimize and streamline business operations. From meticulous process analysis to the implementation of cutting-edge technologies, our team is dedicated to enhancing your overall workflow. ",
+        "serviceCategorySubHeadingTitle": "Empowering Efficiency for Seamless Business Performance",
+        "serviceCategorySubContent": "Leverage the potential of data-driven insights, automation, and robust analytics to minimize costs, mitigate risks, and foster a culture of continuous improvement. Embrace Operational Excellence to steer your organization towards a future defined by unparalleled efficiency and sustainable success.",
+        "serviceSubCategoryList": [
+          {
+            "serviceId": "1",
+            "serviceNavigationTitle":"Development",
+            "serviceTitle": "Development",
+            "serviceDesc": "With a client-centric approach, we strive to exceed expectations, delivering tailored ..",
+            "serviceImg": "services/sub-services-icons/Operational Excellence/development.svg"
+          },
+          {
+            "serviceId": "2",
+            "serviceNavigationTitle":"Automation",
+            "serviceTitle": "Automation",
+            "serviceDesc": "Through smart integration of leading technologies, we empower businesses to automate ..",
+            "serviceImg": "services/sub-services-icons/Operational Excellence/automation.svg"
+          },
+          {
+            "serviceId": "3",
+            "serviceNavigationTitle":"Integration",
+            "serviceTitle": "Integration",
+            "serviceDesc": "Our tailored integration solutions enhance collaboration, optimize data flow, ensure a .. ",
+            "serviceImg": "services/sub-services-icons/Operational Excellence/integration.svg"
+          },
+          {
+            "serviceId": "4",
+            "serviceNavigationTitle":"Content-Management",
+            "serviceTitle": "Content Management",
+            "serviceDesc": "Offering a robust platform that empowers businesses to organize, create, and distribute ..",
+            "serviceImg": "services/sub-services-icons/Operational Excellence/content-management.svg"
+          },
+          {
+            "serviceId": "5",
+            "serviceNavigationTitle":"Data-Insights-and-Visualization",
+            "serviceTitle": "Data Insights & Visualization",
+            "serviceDesc": "We help businesses make informed decisions, uncover trends, and gain a comprehensive ..",
+            "serviceImg": "services/sub-services-icons/Operational Excellence/data-insights.svg"
+          },
+          {
+            "serviceId": "6",
+            "serviceNavigationTitle":"Enterprise-Resource-Planning",
+            "serviceTitle": "Enterprise Resource Planning",
+            "serviceDesc": "Our ERP integrates and streamlines business processes and functions across an organization, providing a ",
+            "serviceImg": "services/sub-services-icons/Operational Excellence/ERP.svg"
+          },
+          {
+            "serviceId": "7",
+            "serviceNavigationTitle":"Customer-Relationship-Management",
+            "serviceTitle": "Customer Relationship Management",
+            "serviceDesc": "Our CRM is a comprehensive system designed to manage and optimize interactions between a business ",
+            "serviceImg": "services/sub-services-icons/Operational Excellence/CRM.svg"
+          }
+        ]
+      },
+      {
+        "serviceCategoryId": 3,
+        "serviceImg":"../../../../assets/img/services/Services Photos/Artificial intelligence AI/ai.png",
+        "serviceCategoryTitle": "Artifical-Intelligance",
+        "serviceCategoryHeadingTitle": "Artificial Intelligence AI",
+        "serviceCategoryContent": "Our AI services encompass Machine Learning, Natural Language Processing, Computer Vision, and AI-driven Business Automation, providing advanced capabilities for data analysis, automation, and predictive modeling to drive efficiency & growth.",
+        "serviceCategorySubHeadingTitle": "Premier Artificial Intelligence Services",
+        "serviceCategorySubContent": "Unleash the power of data-driven insights, automation, and predictive analytics to stay ahead in technology and propel your business forward. With our AI services, stay at the forefront of technological evolution, unlocking unparalleled opportunities for growth and success in a rapidly advancing digital landscape.",
+        "serviceSubCategoryList": [
+          {
+            "serviceId": "1",
+            "serviceNavigationTitle":"Computer-Vision",
+            "serviceTitle": "Computer Vision ",
+            "serviceDesc": "Leveraging advanced algorithms, we deliver solutions that enhance object recognition ..",
+            "serviceImg": "services/sub-services-icons/Artificial intelligence AI/computer-vision.svg"
+          },
+          {
+            "serviceId": "2",
+            "serviceNavigationTitle":"Machine-Learning-Services(ML)",
+            "serviceTitle": "Machine-Learning-Services (ML)",
+            "serviceDesc": "From predictive analytics to pattern recognition, our ML expertise transforms data into ..",
+            "serviceImg": "services/sub-services-icons/Artificial intelligence AI/machine-learning.svg"
+          },
+          {
+            "serviceId": "3",
+            "serviceNavigationTitle":"NLP–Natural-Language-Processing",
+            "serviceTitle": "NLP – Natural Language Processing",
+            "serviceDesc": "Interpreting and understanding human language, our NLP services allow businesses to .. ",
+            "serviceImg": "services/sub-services-icons/Artificial intelligence AI/nlp.svg"
+          },
+          {
+            "serviceId": "4",
+            "serviceNavigationTitle":"AI-driven-Business-Automation",
+            "serviceTitle": "AI-driven Business Automation",
+            "serviceDesc": "Transforming business landscape with intelligent automation that adapts, optimizes, and ..",
+            "serviceImg": "services/icons/internal-experience.svg"
+          }
+        ]
+      },
+      {
+        "serviceCategoryId": 4,
+        "serviceImg":"../../../../assets/img/services/Services Photos/Database Services/database-service.png",
+        "serviceCategoryTitle": "Database-Service",
+        "serviceCategoryHeadingTitle": "Database Services",
+        "serviceCategoryContent": "We master crafting robust and scalable database solutions to ensure seamless data management and retrieval. With a focus on performance optimization and data security, our experts elevate software infrastructure for making informed decisions.",
+        "serviceCategorySubHeadingTitle": "A Cornerstone of Efficiency and Reliability",
+        "serviceCategorySubContent": "Our expert team crafts personalized solutions, ensuring smooth data management, accessibility, and security for accelerated performance and scalability, as we optimize your database environment with robust, tailored database services that lay the foundation for data-driven success in today's dynamic digital world.",
+        "serviceSubCategoryList": [
+          {
+            "serviceId": "1",
+            "serviceNavigationTitle":"Administration",
+            "serviceTitle": "Administration",
+            "serviceDesc": "We excel in maintaining, optimizing, and securing databases, ensuring peak performance and..",
+            "serviceImg": "services/sub-services-icons/Database Services/administration.svg"
+          },
+          {
+            "serviceId": "2",
+            "serviceNavigationTitle":"Performance-Optimization",
+            "serviceTitle": "Performance Optimization",
+            "serviceDesc": "Our dedicated team employs advanced techniques to enhance speed, responsiveness, and..",
+            "serviceImg": "services/sub-services-icons/Database Services/performance-optimization.svg"
+          },
+          {
+            "serviceId": "3",
+            "serviceNavigationTitle":"Availability",
+            "serviceTitle": "Availability",
+            "serviceDesc": "We guarantee that databases keep running smoothly, minimizing downtime and maximizing ..",
+            "serviceImg": "services/sub-services-icons/Database Services/availability.svg"
+          },
+          {
+            "serviceId": "4",
+            "serviceNavigationTitle":"Migration",
+            "serviceTitle": "Migration",
+            "serviceDesc": "We flawlessly transit your data to new environments, ensuring smooth and secure transfer .",
+            "serviceImg": "services/sub-services-icons/Database Services/migration.svg"
+          },
+          {
+            "serviceId": "5",
+            "serviceNavigationTitle":"Support",
+            "serviceTitle": "Support",
+            "serviceDesc": "Our dedicated support team ensures the reliability, security, and efficiency of database, ..",
+            "serviceImg": "services/sub-services-icons/Database Services/support.svg"
+          }
+        ]
+      },
+      {
+        "serviceCategoryId": 5,
+        "serviceImg":"../../../../assets/img/services/Services Photos/Consultancy & Outsourcing/consultancy.png",
+        "serviceCategoryTitle": "Consultant-&-OutSourcing",
+        "serviceCategoryHeadingTitle": "Consultancy & Outsourcing",
+        "serviceCategoryContent": "We offer tailored consulting solutions to optimize and guide you through needed technology decisions. We provide scalable outsourcing solutions, allowing your business to focus on core objectives while we handle the intricacies of development.",
+        "serviceCategorySubHeadingTitle": "Unlock the Unparalleled Expertise ",
+        "serviceCategorySubContent": "Through our dynamic partnership, our seasoned consultants navigate the ever-evolving tech landscape, tailoring solutions to elevate your software infrastructure, while you can leverage our outsourcing prowess for scalable, cost-effective development, freeing your resources to concentrate on strategic goals",
+        "serviceSubCategoryList": [
+          {
+            "serviceId": "1",
+            "serviceNavigationTitle":"Dedicated-Development-Team",
+            "serviceTitle": "Dedicated Development Team",
+            "serviceDesc": "Our Dedicated Development Team offers an extension of your in-house capabilities with .",
+            "serviceImg": "services/sub-services-icons/Consultancy & Outsourcing/development-team.svg"
+          },
+          {
+            "serviceId": "2",
+            "serviceNavigationTitle":"Dedicated-UI-UX-Team",
+            "serviceTitle": "Dedicated UI/UX Team",
+            "serviceDesc": "Our Dedicated UI/UX Team is your creative partner in crafting exceptional user experience ..",
+            "serviceImg": "services/sub-services-icons/Consultancy & Outsourcing/uiux-team.svg"
+          },
+          {
+            "serviceId": "3",
+            "serviceNavigationTitle":"Dedicated-Project-Team",
+            "serviceTitle": "Dedicated Project Team",
+            "serviceDesc": "Comprising skilled professionals, we ensure a cohesive approach, driving successful project .",
+            "serviceImg": "services/sub-services-icons/Consultancy & Outsourcing/project-team.svg"
+          },
+          {
+            "serviceId": "4",
+            "serviceNavigationTitle":"Dedicated-QA-Team",
+            "serviceTitle": "Dedicated QA Team",
+            "serviceDesc": "Committed to thorough testing and validation, our skilled QA professionals ensure that ..",
+            "serviceImg": "services/sub-services-icons/Consultancy & Outsourcing/qa-team.svg"
+          },
+          {
+            "serviceId": "5",
+            "serviceNavigationTitle":"Consultancy-Services",
+            "serviceTitle": "Consultancy Services",
+            "serviceDesc": "With strategic insights, we empower businesses to make informed decisions, optimize their ..",
+            "serviceImg": "services/sub-services-icons/Consultancy & Outsourcing/consultancy-services.svg"
+          }
+        ]
+      },
+      {
+        "serviceCategoryId": 6,
+        "serviceImg":"../../../../assets/img/services/Services Photos/Card Issuing Services/card-issuing.png",
+        "serviceCategoryTitle": "Card-Issuing-Service",
+        "serviceCategoryHeadingTitle": "Card Issuing Services",
+        "serviceCategoryContent": "With advanced technology and precision, we effortlessly issue customized cards, whether for payments, access control, etc. We prioritize security, flexibility, and efficiency, ensuring a frictionless experience for both businesses and end-users.",
+        "serviceCategorySubHeadingTitle": "Where Innovation Meets Convenience",
+        "serviceCategorySubContent": "Impeccably customize and issue cards for diverse purposes, from payments and access control to loyalty programs. Our trailblazing software prioritizes security to ensure a trusted and efficient transaction experience, empowering your business with the flexibility and precision needed for transactions and other needs",
+        "serviceSubCategoryList": [
+          {
+            "serviceId": "1",
+            "serviceNavigationTitle":"EMV-Script-Development",
+            "serviceTitle": "EMV Script Development",
+            "serviceDesc": "We specialize in EMV Script Development for secure and compliant chip card transactions",
+            "serviceImg": "services/sub-services-icons/Card Issuing Services/emv-script-development.svg"
+          },
+          {
+            "serviceId": "2",
+            "serviceNavigationTitle":"Smart-Card-Applet-Development",
+            "serviceTitle": "Smart Card Applet Development",
+            "serviceDesc": "We focus on crafting advanced applets that enhance functionality, security, adaptability",
+            "serviceImg": "services/sub-services-icons/Card Issuing Services/smart-card-applet-development.svg"
+          },
+          {
+            "serviceId": "3",
+            "serviceNavigationTitle":"E-ID-and-E-Passports-and-Access-Cards",
+            "serviceTitle": "E-ID and E-Passports and Access Cards ",
+            "serviceDesc": "We surpass in providing solutions for E-ID, E-Passports, and Access Cards. Our expertise .",
+            "serviceImg": "services/sub-services-icons/Card Issuing Services/E-ID.svg"
+          },
+          {
+            "serviceId": "4",
+            "serviceNavigationTitle":"Entrust-Authentication-Software-Platforms",
+            "serviceTitle": "Entrust® Authentication Software Platforms",
+            "serviceDesc": "Our Entrust® enhances business security, offering state-of-the-art authentication systems",
+            "serviceImg": "services/sub-services-icons/Card Issuing Services/authentication-software-platforms.svg"
+          }
+        ]
+      }
+    ]
+  }
+  

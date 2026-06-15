@@ -1,0 +1,152 @@
+//service card globall style 
+.bg-light-section{background-color: $secondary-color-lighten;}
+.service__card{
+    position: relative;
+    text-align: center;margin-bottom: 6rem;min-height: 200px;
+    .service__icon{
+        position: absolute;
+        width: auto;
+        height:auto;
+        left: 35%;
+        top: -68px;             
+        .icon--overlay{
+            background-image: url(../../img/services/iconbg.svg);
+            @include photoBgCover;width: 120px;
+            padding: 1.5rem;
+            img{width: 80px;}
+        }
+    }
+    .card-body{
+        padding-bottom: 0rem;
+        padding-inline-end: 0rem;
+        .service__title{color:$primary-color;margin-top: 2rem;
+            @media #{$max-l} {font-size:1.4rem;}
+            @media #{$max-md} {margin-top: 3rem;}
+        }
+        p{  padding-inline-end: 1rem;}
+        .btn-more{
+            background-color:$primary-color;
+            width: 70px;
+            margin-left: auto;
+            padding: 0.3rem 0rem;
+            border-radius: 0rem;
+            border-top-left-radius: 2rem;
+            border-bottom-right-radius:1.375rem;
+            cursor: pointer;position: absolute;bottom: 0;inset-inline-end: 0;
+            img{width:25px}
+        }
+    }
+}
+// second style of card
+.successful__story__container{
+    position: relative;
+    .successful__story__icon{position: absolute;top:-12px;right: 0;left: 0;bottom: 0;width:120px;height: 90px;background-color:$secondary-color;border-radius: rem(15);}
+   .service__card{
+    text-align: unset;padding: 2rem 0rem;box-shadow:$box-shadow;margin-bottom:3rem;
+    .service__title{position: relative;margin-top:0rem;  &::after{@include titleUnderline($secondary-color,10%,-7px)}}
+   }
+}
+.all-service-page{background-color:$secondary-color-lighten;
+    .service-paragraph{margin-bottom:4rem;
+        display: flex;
+        justify-content: center;
+        p{ max-width: 850px;color:$primary-color-dark;font-size:$fs-20}
+    }
+}
+
+//Service Category Style
+.service__category{
+    background-color:$secondary-color-lighten;
+    .service__main__title{
+        font-size:rem(50);color:$secondary-color;margin-bottom:1rem;display: inline-block;
+        @media #{$max-md} {font-size:rem(40);}
+        @media #{$max-sm} {font-size:rem(30);}
+    }
+    p{color:$primary-color-dark;margin-bottom:1rem;}
+    .service__sub__title{position: relative;
+        color: $primary-color;margin-bottom:1rem;display:inline-block;font-size:rem(20);
+        &::after{@include titleUnderline($secondary-color,21%,-4px)}
+    }
+    .service__category__image{
+        img{width: 80%;}
+    }
+    .sub__category__titles{
+        background-color:$section-bg;        
+        .overlay-sperator{
+            .section-heading{top:30%;
+                h2{&::before{@include headingSection('Solutions');color:$primary-color;    
+                    @media #{$max-sm} {font-size:rem(64);}
+                }}
+            }
+        }
+
+    }
+    .sub-category-container{
+        background-color:$section-bg; padding-top: 9rem;
+        @media #{$max-md} {padding-top: 7rem;}
+
+        .sub-category-service{
+            left:25%
+        }
+    }
+
+}
+.section-space{padding-bottom: 0rem;}
+// service detail
+.service__subcategory{ background-color:$section-bg;
+    .sub__category__titles{
+        .overlay-sperator{
+            .section-heading{top:30%;
+                h2{&::before{@include headingSection('Successful');color:$primary-color;    
+                    @media #{$max-sm} {font-size:rem(64);}
+                }}
+            }
+        }
+    }
+    .service-catagory-paragraph{
+        padding-top: 4rem;
+        margin-bottom:4rem;
+        display: flex;
+        justify-content: center;
+        p{ max-width: 850px;color:$primary-color-dark;font-size:$fs-18}
+    }
+}
+.case__study{padding-top:3rem;background-color:$section-bg;display:none;
+    .section-heading{
+        h2{color:$primary-color;&::before{@include headingSection('UserOpinion');color:$primary-color;    
+            @media #{$max-sm} {font-size:rem(64);}
+        }}
+    }
+    .carsouel{background-color:$secondary-color-lighten;padding:2rem 0rem;
+        .case__studycard{margin-inline-start:2rem;
+            .service__card{
+               border-inline-start:70px solid $primary-color;
+               padding-inline-end: 1rem;
+            }
+            .successful__story__icon{
+                top: 42px;
+                left: -22px;
+                width: 120px;
+                height: 120px;
+                border-radius: 50%;
+                z-index: 9;background-color: transparent;
+               }
+        }
+        .carousel-indicators{
+            [data-bs-target] {background-color: $secondary-color;width:30px;height: 8px;border-radius: 9px;border: none;
+                @media #{$max-md} { width:24px}
+            }
+            @media #{$max-md} { margin-left: 15%;}
+    
+        }
+    }
+
+}
+.subcategory__technology{
+    padding-top:6rem;
+    .section-heading{top:30%;
+        h2{&::before{@include headingSection('Technology');color:$primary-color;    
+            @media #{$max-sm} {font-size:rem(64);}
+        }}
+    }    
+}

@@ -1,0 +1,48 @@
+
+[dir="rtl"] button{img{rotate: 180deg;}}
+[dir="rtl"] .btn-more{svg{rotate: 180deg;}}
+[dir="rtl"] .btn-more{img{rotate: 180deg;}}
+[dir="rtl"] .btn{svg{rotate: 180deg;}}
+[dir="rtl"] .btn{img{rotate: 180deg;}}
+//----------------------------Home Page--------------------
+[dir="rtl"] header{
+    .header-overlay-one{left:-101px;img{width:50%}}
+	.header-overlay-two{right: 0px;img{width:50%}}
+	.header-overlay-three{
+	right:38%;img{width:50%}
+	}
+}
+[dir="rtl"] .our-facts{
+    .facts__content-container{
+        .facts__content{
+            .btn-outline-primary{
+                svg {width: 20px;rotate: 180deg; g path{fill:$white-color;}}
+            }
+        }
+    }
+}
+[dir="rtl"] .nav-pills{
+    .nav-item{
+        &:first-child{position: relative;
+            &::after{position: absolute;left: 0;right: unset !important;;}
+        }
+    }
+}
+//------------------------------footer-------------------------------
+[dir="rtl"] .listing{ul{li{svg{rotate: 180deg;}}}}
+//----------------------------navbar--------------------
+[dir="rtl"] .list-group-item{
+    svg{rotate: 180deg;}
+    .submenu-group{left: unset !important;right:100%}
+}
+//------------------------------Service single page--------------------------
+[dir="rtl"] .case__study {
+    .carsouel {
+        .case__studycard {
+            .successful__story__icon{
+                right: -22px;
+                left: unset!important;
+            }
+        }
+    }
+}

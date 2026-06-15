@@ -1,0 +1,62 @@
+<app-loader *ngIf="loaded"></app-loader>
+<app-page-header 
+  [headerTitle]="'News'"
+  [headerImage]="'blogs/header.png'"
+  id="blogHeader"
+  >
+</app-page-header>
+<section class="all-service-page">
+    <div class="container">
+      <!-- breadcrumb -->
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item">
+            <svg xmlns="http://www.w3.org/2000/svg"  height="23.016" viewBox="0 0 24 23.016">
+              <path id="Home_icon_SVG" data-name="Home icon_SVG" d="M23.728,21.082,13.959,11.25l-.039-.037a2.81,2.81,0,0,0-3.749-.008l-.039.037L.275,21.079A.938.938,0,0,0,1.6,22.406l.744-.743v8.095a3.754,3.754,0,0,0,3.75,3.75H9.469a.937.937,0,0,0,.937-.937V24.93h3.281v7.641a.937.937,0,0,0,.938.938h3.281a3.754,3.754,0,0,0,3.75-3.75.937.937,0,1,0-1.875,0,1.877,1.877,0,0,1-1.875,1.875H15.563V23.993a.937.937,0,0,0-.937-.937H9.469a.937.937,0,0,0-.937.938v7.641H6.094a1.877,1.877,0,0,1-1.875-1.875V19.821q0-.014,0-.028l7.217-7.2a.937.937,0,0,1,1.216,0l7.13,7.177v5.3a.937.937,0,1,0,1.875,0V21.658l.741.746a.937.937,0,0,0,1.33-1.322Z" transform="translate(0 -10.492)" fill="#0055b8"/>
+            </svg>
+            <a routerLink="">Home</a>
+          </li>
+          <li class="breadcrumb-item active" aria-current="page">News</li>
+        </ol>
+      </nav>
+      <div class=" text-center service-paragraph">
+        <p class="line-clamp-4">Blogs serve as dynamic online platforms for individuals and organizations to share their insights, stories, and expertise with a global audience. They offer a diverse array of content ranging from personal narratives to professional advice, fostering engagement and interaction within online communities. </p>
+      </div>
+      <div class="row g-5">
+        <div *ngFor="let news of newsList" class="col-lg-4 col-md-6 col-12 project-item-container blog-card">
+          <div class="project-image ">
+            <img class="img-fluid" src="../../../../assets/img/{{news.newsImage}}">
+          </div>
+          <div class="project-content">
+            <h3>{{news.newsTitle}}</h3>
+            <p class="line-clamp-3">{{news.newsDescription}}</p>
+            <div class="d-flex justify-content-end">
+                <a (click)="openURL($event,'news',news.newsId)" class="link-card">
+                    <img  src="../../../assets/img/home/icons/arrow.svg" alt="">
+                </a>
+                <!-- <a routerLink="/coming-soon" class="link-card">
+                    <img  src="../../../assets/img/home/icons/arrow.svg" alt="">
+                </a> -->
+            </div>
+          </div>
+          <div class="date">
+            <span class="day">{{ news.newsDate.split(',')[0] }}</span>
+            <span class="month">{{ news.newsDate.split(',')[1] }}</span>
+          </div>
+  
+        </div>  
+        <div class="more text-center">
+            <a routerLink="/coming-soon" class="btn btn-secondary m-auto my-5">
+              <span>Load More</span>
+              <img src="assets/img/career/icon_plus.svg" alt="" class="ms-2" style="width: 10px;">
+            </a>
+        </div>      
+      </div>
+    </div>
+</section>
+
+
+<div class="section-seprator bg-service ">
+    <img src="../../../../assets/img/home/TopCurves.svg">
+  </div>
+  

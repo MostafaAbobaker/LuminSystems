@@ -1,0 +1,584 @@
+{
+    "products": [
+      {
+        "productDetailId": 1,
+        "productImage": "../../../../../../assets/img/products/Prduct Details Photos/notify-imternal.png",
+        "productDetailTitle": "Notify",
+        "productDetailHeadingTitle": "Notify:",
+        "productDetailHeadingSufixTitle": "Optimized Alert System!",
+        "productDetailContent": "Featuring an intuitive web application and powerful development functionalities, the enhanced Notify facilitates seamless communication across diverse channels, encompassing E-Mail, SMS, Push Notifications, and various Social Media Platforms.",
+        "productDetailSubHeadingTitle": "The Next Generation of Notification Management!",
+        "productDetailSubContent": "Furthermore, Notify boasts an instinctive interface that simplifies the notification management process, allowing businesses to efficiently tailor their messaging strategies. The system ensures adaptability to evolving communication needs, providing a future-proof solution for dynamic enterprises. ",
+        "featuresMainTitle":"With an extensive array of features accurately crafted for the purpose of unified channel control, advanced analytics, strategic prioritization, and robust traceability, Notify serves as a powerful tool that empowers businesses to elevate their communication outreach strategies and streamline operational processes.",
+        "featuresList":[
+            {
+                "featuresTitle":"Multi-Channel Communication",
+                "featuresDescription":"Notify facilitates smooth notifications across diverse channels, ensuring widespread outreach through Email, SMS, Push Notifications, and popular social media platforms, maximizing your connection with the target audience."
+            },
+            {
+                "featuresTitle":"Comprehensive Channel Control",
+                "featuresDescription":"Maintain complete oversight of all communication channels, guaranteeing consistent and impactful messaging strategies across all platforms, and fostering a resonant brand presence for maximum impact and audience engagement."
+            },
+            {
+                "featuresTitle":"Centralized Analytics Dashboard",
+                "featuresDescription":"Access critical insights and performance analytics via an advanced dashboard, enabling informed decision-making and strategic refinements to optimize communication strategies and achieve heightened levels of performance."
+            },
+            {
+                "featuresTitle":"Integration with Leading Providers",
+                "featuresDescription":"Effortlessly link with top E-mail providers (SMTP, Exchange, and Send Grid), SMS providers (Twilio & Vodafone), Push Notification providers (Firebase Cloud Messaging & Apple Push Notification), and Social Platforms"
+            }
+        ],
+        "caseStudyList":[
+            {
+                "cols":[
+                    {
+                        "caseStudyTitle":"Egyptian Ministry Of Finance",
+                        "caseStudyDescription":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                        "caseStudyImage":"../../../../../../assets/img/services/financeLogo.svg"
+                    },
+                    {
+                        "caseStudyTitle":"Egyptian Ministry Of Finance",
+                        "caseStudyDescription":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                        "caseStudyImage":"../../../../../../assets/img/services/planningLogo.svg"
+                    }
+                ]
+            }
+
+        ],
+        "TechnologyMainTitle":"With a dedicated focus on leveraging the latest technologies, tools and methodologies, we ensure that our software solutions are not just products but technological milestones that empower businesses to thrive in an ever-evolving digital landscape.",
+        "technologyUsedList":[
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/Notify/1.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/Notify/2.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/Notify/3.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/Notify/4.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/Notify/5.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/Notify/6.png"
+            }
+           
+        ]
+        
+      },
+      {
+        "productDetailId": 2,
+        "productImage": "../../../../../../assets/img/products/Prduct Details Photos/enroll-internal.png",
+        "productDetailTitle": "eNroll",
+        "productDetailHeadingTitle": "eNROLL:",
+        "productDetailHeadingSufixTitle": "Digital Onboarding!",
+        "productDetailContent": "Revolutionizing the process of customer identity verification, our system introduces an overhauled, paperless, and secure approach to remotely authenticate customers, harnessing trailblazing technologies like AI-powered OCR, Facial Recognition Algorithms, and Liveness Detection.",
+        "productDetailSubHeadingTitle": "Revolutionizing Onboarding Experience!",
+        "productDetailSubContent": "Our Enroll platform is the transformative solution every business requires, reducing the onboarding experience to mere seconds. Redefining efficiency, security, and customer experience in a single package, our state-of-the-art eNROLL system sets new standards for streamlined, secure, and seamless customer onboarding.",
+        "featuresMainTitle":"eNROLL innovative platform not only expedites the onboarding journey through swift enrollment processes but also employs a sophisticated suite of advanced security measures, ensuring a precisely crafted, secure, and enhanced customer onboarding process, and standing poised to redefine industry norms.",
+        "featuresList":[
+            {
+                "featuresTitle":"AI-Powered OCR Technology",
+                "featuresDescription":"The technology is a significant advance in ensuring the flawless processing of documents, contributing to an enhanced user experience and bolstering the overall effectiveness of the system in handling diverse image conditions. "
+            },
+            {
+                "featuresTitle":"Anti-Fraud Checks",
+                "featuresDescription":"Integrated sophisticated measures to provide an added layer of security, ensuring that the integrity of your processes is safeguarded against potential fraudulent activities for a more secure and trustworthy operational environment."
+            },
+            {
+                "featuresTitle":"Selfie Verification against ID Photo",
+                "featuresDescription":"This advanced feature not only enhances the security of the verification process but also underscores our commitment to precision and accuracy, setting a new standard for thorough and reliable identity authentication."
+            },
+            {
+                "featuresTitle":"AI-Powered Liveness Detection",
+                "featuresDescription":"This ensures real-time authentication by distinguishing live, human presence from simulated attempts, providing a robust defense against fraudulent activities and reinforcing the integrity of your authentication processes."
+            }
+        ],
+        "caseStudyList":[
+            {
+                "cols":[
+                    {
+                        "caseStudyTitle":"Egyptian Ministry Of Finance",
+                        "caseStudyDescription":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                        "caseStudyImage":"../../../../../../assets/img/services/financeLogo.svg"
+                    },
+                    {
+                        "caseStudyTitle":"Egyptian Ministry Of Finance",
+                        "caseStudyDescription":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                        "caseStudyImage":"../../../../../../assets/img/services/planningLogo.svg"
+                    }
+                ]
+            }
+
+        ],
+        "TechnologyMainTitle":"Through a steadfast commitment to harnessing cutting-edge technologies and tools, we prioritize staying at the forefront of advancements, ensuring that our solutions not only meet but exceed the demands of the rapidly changing technological landscape.",
+        "technologyUsedList":[
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/eNROLL/6.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/eNROLL/1.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/eNROLL/2.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/eNROLL/3.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/eNROLL/4.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/eNROLL/5.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/eNROLL/7.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/eNROLL/8.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/eNROLL/9.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/eNROLL/10.svg"
+            },
+
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/eNROLL/12.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/eNROLL/13.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/eNROLL/14.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/eNROLL/15.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/eNROLL/16.png"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/eNROLL/17.png"
+            }
+        ]
+        
+      },
+      {
+        "productDetailId": 3,
+        "productImage": "../../../../../../assets/img/products/Prduct Details Photos/swap-internal.png",
+        "productDetailTitle": "SWAP",
+        "productDetailHeadingTitle": "SWAP:",
+        "productDetailHeadingSufixTitle": " Smooth Transactions!",
+        "productDetailContent": "Positioned as a leading force in modern payment solutions, SWAP stands as an evidence to providing the essential infrastructure crucial for payment facilitators and their sub-merchants to effortlessly and securely accept credit card payments.",
+        "productDetailSubHeadingTitle": "Unified Deployment Experience!",
+        "productDetailSubContent": "The platform orchestrates an expedited process for payment services, ensuring a unified and swift deployment experience. By combining cutting-edge technology with a user-centric approach, SWAP transforms the payment solutions panorama, offering a secure, efficient, and frictionless experience for all stakeholders involved.",
+        "featuresMainTitle":"Embracing the latest advancements in payment technology, SWAP is a strategic ally for businesses, allowing them to redirect their focus towards core operations while seamlessly managing the nuances of credit card transactions, and providing them with the resources and support needed to streamline their financial processes with these feature.",
+        "featuresList":[
+            {
+                "featuresTitle":"Merchant Management",
+                "featuresDescription":"With our merchant management capabilities, you gain not only a powerful toolkit but also the strategic advantage of simplified and optimized merchant operations, setting the stage for heightened effectiveness in your business processe."
+            },
+            {
+                "featuresTitle":"Transaction Management",
+                "featuresDescription":"Gain unparalleled control and visibility into the transactional landscape by leveraging our advanced transaction management tools, fostering a smooth, secure, and efficient payment processing experience for all stakeholders."
+            },
+            {
+                "featuresTitle":"Payment Link Options",
+                "featuresDescription":"With a variety of payment links at your disposal, you not only broaden the scope of convenience for your customers but also demonstrate a commitment to delivering a personalized, user-friendly and accommodating payment journey."
+            },
+            {
+                "featuresTitle":"Reports and Dashboards",
+                "featuresDescription":"SWAP goes beyond conventional reporting by providing a comprehensive and insightful analysis of your payment landscape, enabling you to make data-driven decisions and optimize your strategies for enhanced operational efficiency."
+            }
+        ],
+        "caseStudyList":[
+            {
+                "cols":[
+                    {
+                        "caseStudyTitle":"Egyptian Ministry Of Finance",
+                        "caseStudyDescription":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                        "caseStudyImage":"../../../../../../assets/img/services/financeLogo.svg"
+                    },
+                    {
+                        "caseStudyTitle":"Egyptian Ministry Of Finance",
+                        "caseStudyDescription":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                        "caseStudyImage":"../../../../../../assets/img/services/planningLogo.svg"
+                    }
+                ]
+            }
+
+        ],
+        "TechnologyMainTitle":"By proactively staying ahead of technological advancements and embracing innovative tools, we empower our solutions to embody qualities of resilience, adaptability, and anticipation, positioning our offerings as anticipatory of the dynamic challenges in the contemporary technological landscape.",
+        "technologyUsedList":[
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/SWAP/1.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/SWAP/2.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/SWAP/3.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/SWAP/4.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/SWAP/5.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/SWAP/6.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/SWAP/7.png"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/SWAP/8.png"
+            }
+        ]
+        
+      },
+      {
+        "productDetailId": 4,
+        "productImage": "../../../../../../assets/img/products/Prduct Details Photos/form-builder-internal.png",
+        "productDetailTitle": "Form-Management",
+        "productDetailHeadingTitle": "Form Management:",
+        "productDetailHeadingSufixTitle": "",
+        "productDetailContent": "A centralized hub dedicated to seamlessly create and oversee all system forms within a unified, user-friendly platform. Engineered with a robust web application and development capabilities, it simplifies the intricate process of form development and management.",
+        "productDetailSubHeadingTitle": "Form Revolution:Efficiency for Business Task",
+        "productDetailSubContent": "The system is strategically crafted to streamline the creation and administration of diverse system forms, aiming to revolutionize the conventional methods by which businesses handle their form-related tasks, and enabling them to enhance their workflow efficiency with unparalleled ease and effectiveness.",
+        "featuresMainTitle":"Form Management not only streamlines the form-related tasks but also offers a suite of features designed to provide the essential resources and support necessary for businesses to optimize and enhance their overall form management processes. With our unique features, navigating the complexities of form management becomes a swift and efficient endeavor.",
+        "featuresList":[
+            {
+                "featuresTitle":"Drag & Drop Interface",
+                "featuresDescription":"Utilize our intuitive Drag & Drop interface to eliminate the customary complexities associated with the form creation process, ensuring that users can effortlessly design and structure forms, for a smooth and efficient user experience."
+            },
+            {
+                "featuresTitle":"Form Replication",
+                "featuresDescription":"Optimize your workflow by using our powerful tool to duplicate existing forms effortlessly, not only to save valuable time and effort but also to empower you to make necessary adjustments without the need to start from scratch."
+            },
+            {
+                "featuresTitle":"Form Export & Import",
+                "featuresDescription":"acilitate a fluid integration process by seamlessly importing external forms using the JSON format, ensuring a smooth assimilation with diverse data sources and systems, and fostering a holistic approach to data management."
+            },
+            {
+                "featuresTitle":"Project-based Form Grouping",
+                "featuresDescription":"Group your forms under specific projects, for better organization and management of various form-related tasks and projects, providing users with an organized method for handling form-related activities within different projects."
+            }
+        ],
+        "caseStudyList":[
+            {
+                "cols":[
+                    {
+                        "caseStudyTitle":"Egyptian Ministry Of Finance",
+                        "caseStudyDescription":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                        "caseStudyImage":"../../../../../../assets/img/services/financeLogo.svg"
+                    },
+                    {
+                        "caseStudyTitle":"Egyptian Ministry Of Finance",
+                        "caseStudyDescription":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                        "caseStudyImage":"../../../../../../assets/img/services/planningLogo.svg"
+                    }
+                ]
+            }
+
+        ],
+        "TechnologyMainTitle":"The system is meticulously crafted, incorporating the latest advancements in technology to revolutionize handling and streamlining form-related processes. Fueled by a commitment to stay at the forefront of technological evolution, it leverages state-of-the-art tools and adaptive features to provide users with a genuine and intuitive experience.",
+        "technologyUsedList":[
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/Form Builder/1.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/Form Builder/2.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/Form Builder/3.svg"
+            }
+        ]
+        
+      },
+      {
+        "productDetailId": 5,
+        "productImage": "../../../../../../assets/img/products/Prduct Details Photos/pitch-internal.png",
+        "productDetailTitle": "Pitchplus",
+        "productDetailHeadingTitle": "Pitch+:",
+        "productDetailHeadingSufixTitle": "Game Precision!",
+        "productDetailContent": "An advanced sports analytics solution for the field of football performance. Our system employs hi-tech technology to pinpoint player strengths, weaknesses, and unique playing styles, offering a granular view into individual and team performances.",
+        "productDetailSubHeadingTitle": "Actionable Insights with real-time data!",
+        "productDetailSubContent": "We don't just present raw statistics but translate them into actionable intelligence, enabling coaches, analysts, and teams to make informed decisions for strategic planning and player development. This depth of understanding allows for targeted training regimens, personalized strategies, and efficient player development programs.",
+        "featuresMainTitle":"Distinguished from conventional statistical tools, our platform introduces transformative capabilities that stand as a game-changer in the realm of sports analytics. Its innovative features serve as a powerful catalyst, empowering coaches, analysts, and entire teams to transcend the confines of traditional strategies and the surface of raw statistics.",
+        "featuresList":[
+            {
+                "featuresTitle":"Precision Player Analysis",
+                "featuresDescription":"Pitch+ employs innovative sports analytics to precisely identify player strengths and defects, offering coaches and analysts an intricate perspective, facilitating insightful evaluations, and enabling targeted enhancements."
+            },
+            {
+                "featuresTitle":"Real-time Actionable Insights",
+                "featuresDescription":"Pitch+ transforms statistics into actionable intelligence in real-time, equipping coaches, analysts, and teams with the ability to make informed decisions, fostering strategic planning, and facilitating development programs."
+            },
+            {
+                "featuresTitle":"Personalized Strategies",
+                "featuresDescription":"The system goes beyond generic statistics, offering a profound understanding of player performance, enabling coaches to tailor strategies based on individual strengths and weaknesses, which elevates the entire team's gameplay."
+            },
+            {
+                "featuresTitle":"Development Programs",
+                "featuresDescription":"Pitch+ facilitates targeted training regimens and player development programs. Coaches can utilize this feature to implement focused training sessions that address specific player needs and enhance player skills and team performance."
+            }
+        ],
+        "caseStudyList":[
+            {
+                "cols":[
+                    {
+                        "caseStudyTitle":"Egyptian Ministry Of Finance",
+                        "caseStudyDescription":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                        "caseStudyImage":"../../../../../../assets/img/services/financeLogo.svg"
+                    },
+                    {
+                        "caseStudyTitle":"Egyptian Ministry Of Finance",
+                        "caseStudyDescription":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                        "caseStudyImage":"../../../../../../assets/img/services/planningLogo.svg"
+                    }
+                ]
+            }
+
+        ],
+        "TechnologyMainTitle":"Through cutting-edge tools and analytics, Pitch+ intricately dissects player attributes, unveiling nuanced insights into strengths and defects. This technology affords coaches and analysts a comprehensive understanding of individual and team dynamics, paving the way for strategic enhancements and insightful game plans.",
+        "technologyUsedList":[
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/pitch/1.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/pitch/2.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/pitch/3.svg"
+            }
+        ]
+        
+      },
+      {
+        "productDetailId": 6,
+        "productImage": "../../../../../../assets/img/products/Prduct Details Photos/FitMit-imternal.png",
+        "productDetailTitle": "FitMateplus",
+        "productDetailHeadingTitle": "FitMate+",
+        "productDetailHeadingSufixTitle": " ",
+        "productDetailContent": "FitMate+ introduces a revolutionary approach to exercise guidance by utilizing advanced technology to detect and highlight exercises, framing the body in a vibrant green when exercises are executed correctly, while alerting in a bold red for any errors.",
+        "productDetailSubHeadingTitle": "FitMate+: Ultimate Virtual Coach!",
+        "productDetailSubContent": "What sets FitMate+ apart is its real-time guidance, ensuring that every move is executed with precision. The program not only acts as a virtual coach but also provides instant feedback, which makes it a dynamic learning companion, fostering a learning environment where beginners can confidently master their workout routines.",
+        "featuresMainTitle":"Leveraging a synergy of personalized fitness strategies and modern technological advancements, FitMate+ seamlessly transforms into a dynamic and interactive partner for cultivating a healthier and fitter lifestyle. The program not only tailors workout routines to individual needs but also integrates advanced technology, enhancing fitness experience. ",
+        "featuresList":[
+            {
+                "featuresTitle":"Real-Time Precision Guidance",
+                "featuresDescription":"A revolutionary real-time guidance system, guaranteeing precision in the execution of each exercise. Users experience immediate feedback, immersing themselves in a dynamic learning environment designed for beginners."
+            },
+            {
+                "featuresTitle":"Cutting-Edge Technology Integration",
+                "featuresDescription":"FitMate+ integrates pioneering technology to elevate the fitness experience, leveraging advanced technology to enhance user engagement and effectiveness, which makes it a dynamic and innovative fitness companion."
+            },
+            {
+                "featuresTitle":"Personalized Fitness Strategies",
+                "featuresDescription":"Tailored to individual needs, FitMate+ employs personalized fitness strategies, going beyond one-size-fits-all approaches, adapting workouts to user requirements, and fostering effective and customized fitness regimens."
+            },
+            {
+                "featuresTitle":"Interactive Fitness Partnerms",
+                "featuresDescription":"his feature creates a supportive and dynamic environment, ensuring that users not only follow workout routines but also actively engage with the program as a comprehensive fitness guide, fostering success in achieving fitness goals."
+            }
+        ],
+        "caseStudyList":[
+            {
+                "cols":[
+                    {
+                        "caseStudyTitle":"Egyptian Ministry Of Finance",
+                        "caseStudyDescription":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                        "caseStudyImage":"../../../../../../assets/img/services/financeLogo.svg"
+                    },
+                    {
+                        "caseStudyTitle":"Egyptian Ministry Of Finance",
+                        "caseStudyDescription":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                        "caseStudyImage":"../../../../../../assets/img/services/planningLogo.svg"
+                    }
+                ]
+            }
+
+        ],
+        "TechnologyMainTitle":"real-time data processing to provide users with instant, precision-guided feedback during their exercises. FitMate+ leverages state-of-the-art sensor technology and artificial intelligence to create a responsive and interactive fitness partner.",
+        "technologyUsedList":[
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/FitMate/1.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/FitMate/2.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/FitMate/3.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/FitMate/4.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/FitMate/5.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/FitMate/6.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/FitMate/7.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/FitMate/8.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/FitMate/9.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/FitMate/10.svg"
+            }
+        ]
+        
+      },
+      {
+        "productDetailId": 7,
+        "productImage": "../../../../../../assets/img/products/Prduct Details Photos/identity-hub-imternal.png",
+        "productDetailTitle": "ID-Hub",
+        "productDetailHeadingTitle": "ID Hub:",
+        "productDetailHeadingSufixTitle": "SSO and Access Control!",
+        "productDetailContent": "ID Hub flawlessly integrates front-line technology to provide a comprehensive access control system and enhance user experiences. Our Single Sign On feature serves as the cornerstone, centralizing authentication processes.",
+        "productDetailSubHeadingTitle": "Unified Access Excellence!",
+        "productDetailSubContent": "Users can enjoy swift and secure access to a myriad of applications and systems using just one set of credentials. This not only simplifies the user experience but also fortifies security measures with ID Hub's future-ready solution, offering a streamlined and efficient solution for seamless navigation across diverse platforms.",
+        "featuresMainTitle":"Revolutionizing the way organizations manage credentials, our platform boasts a cutting-edge Single Sign-On (SSO) solution for navigating diverse platforms effortlessly, where ID Hub sets the standard for intuitive, secure, and unified credential management. ID Hub emerges as the beacon of the future of credential management in organizations. ",
+        "featuresList":[
+            {
+                "featuresTitle":"Single Sign-On (SSO)",
+                "featuresDescription":"Users can navigate diverse platforms with just one set of credentials, which simplifies complexities associated with credential management, enhances user experiences, and offers a more harmonized approach to authentication."
+            },
+            {
+                "featuresTitle":"Platform Integration",
+                "featuresDescription":"Offering a comprehensive solution for navigating diverse platforms effortlessly, ID Hub streamlines access control. The platform seamlessly integrates with various applications and systems, providing a unified experience for users."
+            },
+            {
+                "featuresTitle":"Secure Credential Management",
+                "featuresDescription":"Setting the standard for intuitive, secure, and unified credential management, ID Hub prioritizes user security, ensuring a robust authentication process while maintaining an intuitive interface for a user-friendly experience."
+            },
+            {
+                "featuresTitle":"Future-Ready Access Control",
+                "featuresDescription":"ID Hub emerges as a trailblazer, presenting organizations with an integrated and sophisticated solution that caters to the ever-evolving needs of access control, and remaining at the forefront of modern access control landscapes."
+            }
+        ],
+        "caseStudyList":[
+            {
+                "cols":[
+                    {
+                        "caseStudyTitle":"Egyptian Ministry Of Finance",
+                        "caseStudyDescription":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                        "caseStudyImage":"../../../../../../assets/img/services/financeLogo.svg"
+                    },
+                    {
+                        "caseStudyTitle":"Egyptian Ministry Of Finance",
+                        "caseStudyDescription":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                        "caseStudyImage":"../../../../../../assets/img/services/planningLogo.svg"
+                    }
+                ]
+            }
+
+        ],
+        "TechnologyMainTitle":"The heart of ID Hub lies in its ultramodern Single Sign-On (SSO) solution, employing advanced algorithms for seamless navigation across diverse platforms with a single set of credentials. With a robust authentication process, intuitive interfaces, and comprehensive platform integration, ID Hub sets a new benchmark for access control technology.",
+        "technologyUsedList":[
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/Identity Hub/1.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/Identity Hub/2.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/Identity Hub/3.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/Identity Hub/4.svg"
+            }
+        ]
+        
+      },
+      {
+        "productDetailId": 8,
+        "productImage": "../../../../../../assets/img/products/Prduct Details Photos/lumin-prtal-internal.png",
+        "productDetailTitle": "Lumin-One-ECM",
+        "productDetailHeadingTitle": "Lumin One ECM",
+        "productDetailHeadingSufixTitle": "",
+        "productDetailContent": "The Sharepoint Portal is a centralized hub for content management, document collaboration, and team communication, providing a framework for businesses to organize, share, and access information efficiently to enhance security and productivity.",
+        "productDetailSubHeadingTitle": "Unlocking Productivity",
+        "productDetailSubContent": "With a focus on efficiency and user experience, the portal revolutionizes the way businesses manage content and collaborate, offering a dynamic and integrated solution for modern enterprises, going beyond conventional solutions by fostering a collaborative environment within a secure and user-friendly digital space.",
+        "featuresMainTitle":"Offering a suite of features designed to enhance productivity in the modern business landscape, Lumin One ECM serves as a centralized hub, providing seamless content organization, robust document collaboration tools, and efficient team communication channels, all with a user-friendly interface and a secure framework.",
+        "featuresList":[
+            {
+                "featuresTitle":"Centralized Content Management",
+                "featuresDescription":"Lumin One ECM functions as a nucleus, providing businesses with an advanced platform for effortless content organization. It optimizes the management of information, guaranteeing the swift and accessible retrieval of crucial data."
+            },
+            {
+                "featuresTitle":"Robust Document Collaboration",
+                "featuresDescription":"With advanced document collaboration tools, Lumin One ECM facilitates efficient teamwork. Businesses can collaborate on documents in real-time, providing a dynamic environment for collective input and editing."
+            },
+            {
+                "featuresTitle":"Team Communication Channels",
+                "featuresDescription":"Lumin One ECM enhances team communication with dedicated channels, fostering a collaborative environment. Its communication tools streamline interactions, ensuring that teams can effectively share updates, ideas, and feedback."
+            },
+            {
+                "featuresTitle":"Convenient and Secure Framework",
+                "featuresDescription":"Designed with a user-friendly interface, Lumin One ECM prioritizes ease of use. Its secure framework ensures data integrity and confidentiality, providing a reliable and safe platform for content management and collaboration."
+            }
+        ],
+        "caseStudyList":[
+            {
+                "cols":[
+                    {
+                        "caseStudyTitle":"Egyptian Ministry Of Finance",
+                        "caseStudyDescription":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                        "caseStudyImage":"../../../../../../assets/img/services/financeLogo.svg"
+                    },
+                    {
+                        "caseStudyTitle":"Egyptian Ministry Of Finance",
+                        "caseStudyDescription":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                        "caseStudyImage":"../../../../../../assets/img/services/planningLogo.svg"
+                    }
+                ]
+            }
+
+        ],
+        "TechnologyMainTitle":"With a focus on efficiency, Lumin One ECM utilizes advanced data management technologies to easily access and retrieve critical information. The interface is crafted through modern UI/UX technologies for an engaging experience. Moreover, it employs robust security technologies to safeguard sensitive data, establishing a fully secured digital environment.",
+        "technologyUsedList":[
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/Lumin Portal/1.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/Lumin Portal/2.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/Lumin Portal/3.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/Lumin Portal/4.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/Lumin Portal/5.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/Lumin Portal/6.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/Lumin Portal/7.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/Lumin Portal/8.svg"
+            },
+            {
+                "technologyImg":"../../../../assets/img/Technologieslogo/Lumin Portal/9.svg"
+            }
+        ]
+        
+      }
+    ]
+  }
+  

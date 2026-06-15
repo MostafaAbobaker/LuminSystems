@@ -1,0 +1,17 @@
+.leap-page {
+  .section-heading {
+    h2 {
+      &::before {
+        content: attr(data-title) !important;
+      }
+    }
+  }
+  // .carousel-item{
+	// 	.carousel-item-content{
+  //     .product-details{
+  //       background-color:$section-bg;
+  //     }
+  // }
+  // }
+
+}

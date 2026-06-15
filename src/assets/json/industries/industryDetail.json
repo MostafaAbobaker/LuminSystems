@@ -1,0 +1,510 @@
+{
+    "industries": [
+      {
+        "industryDetailId": 1,
+        "industryImage": "../../../../../../assets/img/Industries/Idustries Photos/government.png",
+        "industryDetailTitle": "Government",
+        "industryDetailHeadingTitle": "Government",
+        "industryDetailHeadingSufixTitle": "Transforming Governance!",
+        "industryDetailContent": "Lumin Soft has established itself as a pivotal player in the government sector by providing cutting-edge solutions tailored to meet the unique challenges and demands of public institutions, enhancing its efficiency, transparency, and overall effectiveness.",
+        "industryDetailSubHeadingTitle": "Robust Solutions Government Excellence",
+        "industryDetailSubContent": "Our robust and secure software solutions facilitate streamlined communication, data management, and decision-making processes. We prioritize the integration of advanced technologies such as AI, Data Analytics, and Cybersecurity to meet the stringent security and compliance standards. ",
+        "featuresMainTitle":"Our software suite tailored for the government sector boasts innovative features designed to revolutionize the way public institutions operate. With a focus on seamless communication, our solution facilitates real-time collaboration, enhancing efficiency and reducing bureaucratic bottlenecks. The robust data management capabilities ensure secure storage, retrieval, and analysis of crucial information.",
+        "featuresList":[
+            {
+                "featuresTitle":"Real-time Collaboration",
+                "featuresDescription":"Our software fosters seamless communication and collaboration within the framework government organizations, where stakeholders can interact and respond promptly, enabling real-time information sharing and reducing delays in decision-making processes."
+            },
+            {
+                "featuresTitle":"Robust Data Management",
+                "featuresDescription":"Our solution ensures secure storage, retrieval, and analysis of critical information, empowering agencies with efficient and organized data handling, and serving as a cornerstone for enhancing the effectiveness and productivity of government institutions."
+            },
+            {
+                "featuresTitle":"Advanced Technologies Integration",
+                "featuresDescription":"We prioritize the integration of cutting-edge technologies to ensure that government entities have access to innovative tools that enhance their operational efficiency and keep them at the forefront of technological advancements."
+            },
+            {
+                "featuresTitle":"Security and Compliance Assurance",
+                "featuresDescription":"Our software is engineered with a strong emphasis on cybersecurity measures, guaranteeing a secure foundation for government operations, and instilling confidence in the protection of sensitive data and adherence to regulatory requirements."
+            }
+        ],
+        "caseStudyList":[
+            {
+                "cols":[
+                    {
+                        "caseStudyTitle":"Egyptian Ministry Of Finance",
+                        "caseStudyDescription":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                        "caseStudyImage":"../../../../../../assets/img/services/financeLogo.svg"
+                    },
+                    {
+                        "caseStudyTitle":"Egyptian Ministry Of Finance",
+                        "caseStudyDescription":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                        "caseStudyImage":"../../../../../../assets/img/services/planningLogo.svg"
+                    }
+                ]
+            }
+
+        ],
+        "customerMainTitle":"We continue to support our government clients to deliver efficient and transparent public services through tailored software solutions with unparalleled value in the features designed to meet the unique needs of their operational environments.",
+        "customerList":[
+            {
+                "customerImg":"../../../../assets/img/Industrieslogos/Government/administrative-control-authority.png"
+            },
+            {
+                "customerImg":"../../../../assets/img/Industrieslogos/Government/capmas.png"
+            },
+            {
+                "customerImg":"../../../../assets/img/Industrieslogos/Government/egyptian-engineers-syndicate.png"
+            },
+            {
+                "customerImg":"../../../../assets/img/Industrieslogos/Government/egyptian-parliament.png"
+            },
+            {
+                "customerImg":"../../../../assets/img/Industrieslogos/Government/fra.png"
+            },
+            {
+                "customerImg":"../../../../assets/img/Industrieslogos/Government/general-authority-for-investment.png"
+            },
+            {
+                "customerImg":"../../../../assets/img/Industrieslogos/Government/ministry-of-cooperation.png"
+            },
+            {
+                "customerImg":"../../../../assets/img/Industrieslogos/Government/ministry-of-telecome.png"
+            },
+            {
+                "customerImg":"../../../../assets/img/Industrieslogos/Government/misistry-of-finance.png"
+            },
+            {
+                "customerImg":"../../../../assets/img/Industrieslogos/Government/NASPS.png"
+            },
+            {
+                "customerImg":"../../../../assets/img/Industrieslogos/Government/social-insurance.png"
+            },
+            {
+                "customerImg":"../../../../assets/img/Industrieslogos/Government/taxation.png"
+            },
+            {
+                "customerImg":"../../../../assets/img/Industrieslogos/Government/egypt-post.svg"
+            },
+            {
+                "customerImg":"../../../../assets/img/Industrieslogos/Government/food-and-agriculture-organization-of-the-united-nations.svg"
+            },
+            {
+                "customerImg":"../../../../assets/img/Industrieslogos/Government/ministry-of-foreign-affairs.svg"
+            },
+            {
+                "customerImg":"../../../../assets/img/Industrieslogos/Government/ministry-of-health.svg"
+            },
+            {
+                "customerImg":"../../../../assets/img/Industrieslogos/Government/united-nations.svg"
+            }
+           
+        ]
+        
+      },
+      {
+        "industryDetailId": 2,
+        "industryImage": "../../../../../../assets/img/Industries/Idustries Photos/banking.png",
+        "industryDetailTitle": "Banking-and-Finance",
+        "industryDetailHeadingTitle": "Banking & Finance",
+        "industryDetailHeadingSufixTitle": "Navigating the Financial Frontier",
+        "industryDetailContent": "Our software represents a holistic solution, catering to the intricate needs of the Banking and Finance industry, and positioning institutions to thrive in an increasingly competitive landscape, introducing a new era of efficiency and innovation.",
+        "industryDetailSubHeadingTitle": "Seamless Financial Operation",
+        "industryDetailSubContent": "With a keen focus on security and compliance, our software ensures the safeguarding of sensitive financial data through robust encryption measures. Real-time transaction processing and seamless integration with diverse financial systems expedite operational workflows, enhancing the overall speed and accuracy of financial transactions.",
+        "featuresMainTitle":"As institutions grapple with the complexities of the digital era, our software emerges as a strategic ally, offering a comprehensive suite of features designed to not only meet but exceed the intricate needs of the sector. From robust data protection to streamlined operational efficiency, our software sets a new standard for excellence, ushering in a transformative era for Banking and Finance.",
+        "featuresList":[
+            {
+                "featuresTitle":"Advanced Security Measures",
+                "featuresDescription":"Distinguished by robust encryption protocols, our software guarantees the highest level of security for financial data against potential threats, reaching the pinnacle of data protection, while meticulously aligning with compliance standards and regulations."
+            },
+            {
+                "featuresTitle":"Real-time Transaction Processing",
+                "featuresDescription":"Experience unparalleled speed and accuracy in financial transactions through our software's real-time processing capabilities. This feature not only enhances operational workflows but also enables financial institutions to stay agile and responsive."
+            },
+            {
+                "featuresTitle":"Seamless Integration",
+                "featuresDescription":"Our software flawlessly integrates with diverse financial systems, facilitating a cohesive and interconnected operational environment, streamlining workflows, reducing redundancies, and fostering a more synchronized approach to managing financial processes."
+            },
+            {
+                "featuresTitle":"Comprehensive Operational Efficiency",
+                "featuresDescription":"From enhancing transaction speed to ensuring data accuracy, our software offers a comprehensive suite of features that address the intricate needs of financial institutions, positioning them to thrive in the ever-evolving landscape of the industry."
+            }
+        ],
+        "caseStudyList":[
+            {
+                "cols":[
+                    {
+                        "caseStudyTitle":"Egyptian Ministry Of Finance",
+                        "caseStudyDescription":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                        "caseStudyImage":"../../../../../../assets/img/services/financeLogo.svg"
+                    },
+                    {
+                        "caseStudyTitle":"Egyptian Ministry Of Finance",
+                        "caseStudyDescription":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                        "caseStudyImage":"../../../../../../assets/img/services/planningLogo.svg"
+                    }
+                ]
+            }
+
+        ],
+        "customerMainTitle":"Our distinguished clientele in the Banking and Finance sector has experienced a transformative shift in their operational dynamics, where our software has become an indispensable asset for them, driving excellence, innovation, and resilience.",
+        "customerList":[
+            {
+                "customerImg":"../../../../assets/img/Industrieslogos/Banking/barclays.svg"
+            },
+            {
+                "customerImg":"../../../../assets/img/Industrieslogos/Banking/citibank.svg"
+            },
+            {
+                "customerImg":"../../../../assets/img/Industrieslogos/Banking/egbank.svg"
+            },
+            {
+                "customerImg":"../../../../assets/img/Industrieslogos/Banking/HSBC.svg"
+            },
+            {
+                "customerImg":"../../../../assets/img/Industrieslogos/Banking/QNB.svg"
+            },
+            {
+                "customerImg":"../../../../assets/img/Industrieslogos/Banking/union-national-bank.svg"
+            }
+        ]
+        
+      },
+      {
+        "industryDetailId": 3,
+        "industryImage": "../../../../../../assets/img/Industries/Idustries Photos/insurance.png",
+        "industryDetailTitle": "Insurance",
+        "industryDetailHeadingTitle": "Insurance",
+        "industryDetailHeadingSufixTitle": "Insightful Transformation",
+        "industryDetailContent": "Leveraging advanced technologies such as Artificial Intelligence and Data Analytics, with a commitment to security & compliance, our solutions enable insurers to make informed decisions, streamline claims processing, and optimize risk management.",
+        "industryDetailSubHeadingTitle": "Unified Solutions",
+        "industryDetailSubContent": "The robust features of our software encompass everything from policy management to automated underwriting, providing a unified and integrated platform for insurers to navigate the complexities of the industry. Our software empowers insurance companies to stay ahead of the curve, embrace innovation, and deliver exceptional services. ",
+        "featuresMainTitle":"As the industry undergoes continual evolution, our software serves as a strategic partner, offering a dynamic and forward-thinking approach to meet the diverse needs of the insurance sector. From comprehensive policy management to automated underwriting, our highly designed and developed features provide insurers with a robust platform, streamlining their operations in the face of industry complexities.",
+        "featuresList":[
+            {
+                "featuresTitle":"Comprehensive Policy Management",
+                "featuresDescription":"From creation and modification to tracking and renewal, our comprehensive policy management feature streamlines the entire lifecycle of the process, ensuring accuracy and compliance with industry standards, all in a robust and user-friendly platform."
+            },
+            {
+                "featuresTitle":"Automated Underwriting",
+                "featuresDescription":"Our software automates the underwriting process, significantly reducing manual efforts and expediting decision-making. This feature enhances efficiency, minimizes errors, and enables insurers to make informed decisions based on real-time data and analytics."
+            },
+            {
+                "featuresTitle":"Dynamic Claims Processing",
+                "featuresDescription":"Our software accelerates the claims processing workflow, ensuring a swift experience for all parties. With automated claims assessments, real-time updates, and seamless communication, insurers can enhance customer satisfaction and optimize operational efficiency."
+            },
+            {
+                "featuresTitle":"Risk Optimization Tools",
+                "featuresDescription":"Sophisticated risk management tools that help insurance companies assess, mitigate, and optimize risks effectively through data analytics and predictive modeling to identify potential risks, anticipate trends, and implement enhancement strategies."
+            }
+        ],
+        "caseStudyList":[
+            {
+                "cols":[
+                    {
+                        "caseStudyTitle":"Egyptian Ministry Of Finance",
+                        "caseStudyDescription":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                        "caseStudyImage":"../../../../../../assets/img/services/financeLogo.svg"
+                    },
+                    {
+                        "caseStudyTitle":"Egyptian Ministry Of Finance",
+                        "caseStudyDescription":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                        "caseStudyImage":"../../../../../../assets/img/services/planningLogo.svg"
+                    }
+                ]
+            }
+
+        ],
+        "customerMainTitle":"Our insurance clients have demonstrated that our software has not only streamlined processes but also enhanced client-insurer relationships, where the unified platform fostered collaboration and the advanced technologies empowered data-driven decision-making.",
+        "customerList":[
+            {
+                "customerImg":"../../../../assets/img/Industrieslogos/Insurance/metlife.svg"
+            }
+            
+        ]
+        
+      },
+      {
+        "industryDetailId": 4,
+        "industryImage": "../../../../../../assets/img/Industries/Idustries Photos/sports.png",
+        "industryDetailTitle": "Sports",
+        "industryDetailHeadingTitle": "Sports",
+        "industryDetailHeadingSufixTitle": "Pioneering Innovation in the Sport",
+        "industryDetailContent": "Our leading software company proudly serves as a catalyst for innovation and efficiency in the dynamic realm of the sports sector with our groundbreaking solutions, empowering teams, athletes, and organizations to thrive in the increasingly competitive and data-driven field.",
+        "industryDetailSubHeadingTitle": "Redefining Management & Optimization",
+        "industryDetailSubContent": "Our flagship products redefine sports management and athlete optimization. Pitch+ pinpoints player strengths, weaknesses, and unique playing styles, while FitMate+ detects exercises, framing the body in a vibrant green for correct execution, and alerting in a bold red for errors.",
+        "featuresMainTitle":"Our leading software for the sports sector encapsulates a cutting-edge suite of features that redefine sports management and athlete optimization. With top products, our software empowers teams, leagues, and organizations with unparalleled capabilities, which further solidify our software as an indispensable asset for sports professionals, revolutionizing the way they approach performance and training.",
+        "featuresList":[
+            {
+                "featuresTitle":"Training Program Customization",
+                "featuresDescription":"Allowing coaches and trainers to dynamically customize training programs based on real-time performance data, which enables agility in adapting training routines to address player needs, ensuring that athletes receive tailored and effective training sessions."
+            },
+            {
+                "featuresTitle":"Player Performance Analysis",
+                "featuresDescription":"Offering in-depth player performance analysis, providing valuable insights into individual strengths, weaknesses, and unique playing styles to enable strategic decision-making and personalized training programs and enhance overall team performance."
+            },
+            {
+                "featuresTitle":"Real-time Exercise Detection",
+                "featuresDescription":"Employing cutting-edge technology to visually assess exercises, providing essential guidance for beginners to ensure they maintain proper form. This not only enhances the training sessions’ effectiveness but also significantly reduces the risk of injuries."
+            },
+            {
+                "featuresTitle":"Fitness Plans and Guidance",
+                "featuresDescription":"Offering personalized fitness plans and guidance. Tailored to individual athlete needs, this feature optimizes training regimens and choices, promoting overall health and well-being while maximizing performance on the field."
+            }
+        ],
+        "caseStudyList":[
+            {
+                "cols":[
+                    {
+                        "caseStudyTitle":"Egyptian Ministry Of Finance",
+                        "caseStudyDescription":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                        "caseStudyImage":"../../../../../../assets/img/services/financeLogo.svg"
+                    },
+                    {
+                        "caseStudyTitle":"Egyptian Ministry Of Finance",
+                        "caseStudyDescription":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                        "caseStudyImage":"../../../../../../assets/img/services/planningLogo.svg"
+                    }
+                ]
+            }
+
+        ],
+        "customerMainTitle":"Teams, leagues, and organizations benefit from our innovative technologies, which go beyond mere functionality, offering comprehensive features that effectively streamline various aspects of sports management and fostering a more efficient and connected sports ecosystem",
+        "customerList":[
+            {
+                "customerImg":"../../../../assets/img/Industrieslogos/Sports/wadi-degla-club.svg"
+            }
+        ]
+        
+      },
+      {
+        "industryDetailId": 5,
+        "industryImage": "../../../../../../assets/img/Industries/Idustries Photos/retail.png",
+        "industryDetailTitle": "Retail",
+        "industryDetailHeadingTitle": "Retail",
+        "industryDetailHeadingSufixTitle": "Empowering Innovation!",
+        "industryDetailContent": "We empower retail businesses to optimize inventory management, automate mundane tasks, and implement data-driven decision-making processes by providing innovative solutions that enhance efficiency, streamline operations, and elevate customer experiences. ",
+        "industryDetailSubHeadingTitle": "Unleashing Insights and Digital Engagement",
+        "industryDetailSubContent": "Our unique point-of-sale systems not only facilitate seamless transactions but also enable businesses to gain valuable insights into consumer behavior and preferences. Additionally, our tailored e-commerce platforms and mobile applications empower retailers to extend their reach and engage with customers in the digital realm.",
+        "featuresMainTitle":"Our tailored retail software is a comprehensive solution meticulously crafted to meet the diverse needs of the modern retail landscape. Beyond being merely software, it serves as a dynamic catalyst, poised to revolutionize every facet of retail operations. This comprehensive solution stands as a testament to our commitment to providing a sophisticated and adaptable tool that goes beyond traditional applications.",
+        "featuresList":[
+            {
+                "featuresTitle":"Intelligent Inventory Management",
+                "featuresDescription":"Our software offers an intelligent inventory management system that goes beyond basic tracking. It employs advanced algorithms to forecast demand, optimize stock levels, and prevent stock-outs or overstock situations with real-time updates and analytics."
+            },
+            {
+                "featuresTitle":"Seamless Point-of-Sale Transactions",
+                "featuresDescription":"The system not only ensures secure and speedy transactions but also captures valuable data on customer purchasing behavior with intuitive interface that simplifies the checkout process for both customers and staff, providing a satisfying experience."
+            },
+            {
+                "featuresTitle":"Data-Driven Insights and Analytics",
+                "featuresDescription":"By collecting and analyzing data on customer behavior, preferences, and market trends, retailers can make informed decisions that enable businesses to tailor marketing strategies, optimize product offerings, and enhance overall customer satisfaction."
+            },
+            {
+                "featuresTitle":"Multi-Channel Retailing",
+                "featuresDescription":"The system seamlessly integrates online and offline channels, allowing retailers to extend their reach and engage with customers across various platforms. This multi-channel approach not only enhances brand visibility but also provides a unified shopping experience"
+            }
+        ],
+        "caseStudyList":[
+            {
+                "cols":[
+                    {
+                        "caseStudyTitle":"Egyptian Ministry Of Finance",
+                        "caseStudyDescription":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                        "caseStudyImage":"../../../../../../assets/img/services/financeLogo.svg"
+                    },
+                    {
+                        "caseStudyTitle":"Egyptian Ministry Of Finance",
+                        "caseStudyDescription":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                        "caseStudyImage":"../../../../../../assets/img/services/planningLogo.svg"
+                    }
+                ]
+            }
+
+        ],
+        "customerMainTitle":"Our client base represents a spectrum of businesses in the retail sector. Catering to the unique requirements of each client, our software has become the trusted ally for retailers seeking to navigate the challenges and opportunities of the modern marketplace.",
+        "customerList":[
+            {
+                "customerImg":"../../../../assets/img/Industrieslogos/Retail/carrefour.svg"
+            }
+        ]
+        
+      },
+      {
+        "industryDetailId": 6,
+        "industryImage": "../../../../../../assets/img/Industries/Idustries Photos/telecommunication.png",
+        "industryDetailTitle": "Telecommunications",
+        "industryDetailHeadingTitle": "Telecommunications",
+        "industryDetailHeadingSufixTitle": "Unified Integration!",
+        "industryDetailContent": "We seamlessly integrate diverse communication channels, fostering a unified platform. Our advanced analytics empower telecom companies to derive meaningful insights, facilitating informed decision-making and strategic planning.",
+        "industryDetailSubHeadingTitle": "Driving Efficiency and Thriving in Telecom",
+        "industryDetailSubContent": "Our solutions support automation, streamline processes, and reduce manual workload, which ultimately drives cost-effectiveness, whether it's through optimizing network performance, enhancing customer service capabilities, or navigating regulatory complexities.",
+        "featuresMainTitle":"Our tailored solutions are specifically designed to empower telecom businesses with advanced features, including seamless integration of diverse communication channels and advanced analytics for informed decision-making and strategic planning. Beyond efficiency and cost-effectiveness, our software stands as the cornerstone for telecom businesses to thrive in this dynamic and competitive industry landscape. ",
+        "featuresList":[
+            {
+                "featuresTitle":"Unified Communication Integration",
+                "featuresDescription":"Our solution integrates diverse communication channels, providing a unified platform for enhanced connectivity, facilitating a cohesive experience across various communication mediums, and promoting streamlined collaboration and operations."
+            },
+            {
+                "featuresTitle":"Automation for Operational Efficiency",
+                "featuresDescription":"From routine tasks to complex processes, our software automation feature reduces manual workload, enabling telecom companies to focus on strategic initiatives, achieve cost-effectiveness, and improve the service delivery for customers."
+            },
+            {
+                "featuresTitle":"Advanced Analytics for Strategic Insights",
+                "featuresDescription":"With the power of advanced analytics to extract meaningful insights from extensive data sets, we arm telecom businesses with actionable data, facilitating informed decision-making, strategic planning, and adaptability to market dynamics."
+            },
+            {
+                "featuresTitle":"Comprehensive Network Optimization",
+                "featuresDescription":"Whether it's managing bandwidth, enhancing coverage, or ensuring robust security measures, our solution is a comprehensive tool to address the unique challenges and maintain a resilient and high-performing telecommunications infrastructure."
+            }
+        ],
+        "caseStudyList":[
+            {
+                "cols":[
+                    {
+                        "caseStudyTitle":"Egyptian Ministry Of Finance",
+                        "caseStudyDescription":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                        "caseStudyImage":"../../../../../../assets/img/services/financeLogo.svg"
+                    },
+                    {
+                        "caseStudyTitle":"Egyptian Ministry Of Finance",
+                        "caseStudyDescription":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                        "caseStudyImage":"../../../../../../assets/img/services/planningLogo.svg"
+                    }
+                ]
+            }
+
+        ],
+        "customerMainTitle":"Our clientele is a rich tapestry, encompassing a wide array of businesses that span from industry behemoths to dynamic startups, where our software emerges as a pivotal asset, adept at addressing the distinctive requirements and challenges presented by each client.",
+        "customerList":[
+            {
+                "customerImg":"../../../../assets/img/Industrieslogos/Telecom/etisalat-eand.svg"
+            },
+            {
+                "customerImg":"../../../../assets/img/Industrieslogos/Telecom/orange.svg"
+            },
+            {
+                "customerImg":"../../../../assets/img/Industrieslogos/Telecom/vodafone.svg"
+            }
+        ]
+        
+      },
+      {
+        "industryDetailId": 7,
+        "industryImage": "../../../../../../assets/img/Industries/Idustries Photos/realestate.png",
+        "industryDetailTitle": "Real-Estate",
+        "industryDetailHeadingTitle": "Real Estate",
+        "industryDetailHeadingSufixTitle": "Integrated Property Management!",
+        "industryDetailContent": "We specialize in providing innovative solutions tailored to the unique needs of the real estate business. Our software seamlessly integrates advanced tools for property management, streamlining tasks such as listing, documentation, and client communication.",
+        "industryDetailSubHeadingTitle": "Analytics for Strategic Decision-Making",
+        "industryDetailSubContent": "Our analytics-driven platform guarantees strategic decision-making for real estate professionals, ensuring optimal pricing strategies and market positioning, automating workflows, enhancing customer experiences, and fostering seamless collaboration for industry excellence.",
+        "featuresMainTitle":"Our comprehensive software solution has been meticulously crafted to not only meet but exceed the multifaceted needs of the industry. This all-encompassing solution serves as a cornerstone in elevating real estate businesses, providing a sophisticated suite of advanced features. From facilitating seamless property management, to harnessing cutting-edge analytics, our software is a holistic approach to industry excellence. ",
+        "featuresList":[
+            {
+                "featuresTitle":"Property Management",
+                "featuresDescription":"Our software offers an intuitive platform for efficient listing, documentation, and communication. From property acquisition to transaction completion, our solution ensures a seamless and organized workflow for real estate professionals."
+            },
+            {
+                "featuresTitle":"Cutting-Edge Analytics",
+                "featuresDescription":"The cutting-edge analytics empower real estate professionals in making informed, data-driven decisions. Our software provides deep insights into market trends, ensuring optimal pricing strategies and strategic positioning for properties."
+            },
+            {
+                "featuresTitle":"Workflow Automation",
+                "featuresDescription":"The automation features eliminate manual tasks and optimize processes. From document generation to task automation, our software enhances productivity, allowing real estate professionals to focus on strategic aspects of their business."
+            },
+            {
+                "featuresTitle":"Customer Experiences and Collaboration",
+                "featuresDescription":"From interactive property showcases to personalized communication tools, we enhance client interactions and foster seamless collaboration among stakeholders, creating a cohesive environment for success."
+            }
+        ],
+        "caseStudyList":[
+            {
+                "cols":[
+                    {
+                        "caseStudyTitle":"Egyptian Ministry Of Finance",
+                        "caseStudyDescription":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                        "caseStudyImage":"../../../../../../assets/img/services/financeLogo.svg"
+                    },
+                    {
+                        "caseStudyTitle":"Egyptian Ministry Of Finance",
+                        "caseStudyDescription":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                        "caseStudyImage":"../../../../../../assets/img/services/planningLogo.svg"
+                    }
+                ]
+            }
+
+        ],
+        "customerMainTitle":"Whether you are a seasoned professional seeking advanced tools for property management or an innovative startup aiming to revolutionize client experiences, our software stands as the trusted ally for forward-thinking real estate enterprises in achieving unparalleled success.",
+        "customerList":[
+            {
+                "customerImg":"../../../../assets/img/Industrieslogos/Real Estate/talaat-moustafa-group.png"
+            },
+            {
+                "customerImg":"../../../../assets/img/Industrieslogos/Real Estate/palm-hills-developments.svg"
+            }
+        ]
+        
+      },
+      {
+        "industryDetailId": 9,
+        "industryDetailTitle": "Education",
+        "industryImage": "../../../../../../assets/img/Industries/Idustries Photos/education.png",
+        "industryDetailHeadingTitle": "Education",
+        "industryDetailHeadingSufixTitle": "Pioneering Learning Solutions!",
+        "industryDetailContent": "Through innovative software services, Lumin Soft transforms the education experience by empowering educators and administrators with efficient tools for streamlined management, interactive learning experiences, and data-driven insights.",
+        "industryDetailSubHeadingTitle": "Inspiring Success Through Innovation",
+        "industryDetailSubContent": "Our commitment to advancing education is reflected in our user-friendly platforms, fostering collaboration, enhancing engagement, and ultimately contributing to the success of both students and institutions, with a focus on cutting-edge technology and a passion for educational excellence.",
+        "featuresMainTitle":"Our education-centric software boasts a robust set of features meticulously crafted to enhance the learning experience. From intuitive user interfaces that promote ease of navigation to collaborative tools fostering engagement, our software is a comprehensive solution that is dedicated to facilitating efficient educational processes and empowering both educators and learners on their academic journey.",
+        "featuresList":[
+            {
+                "featuresTitle":"Comprehensive Learning Management",
+                "featuresDescription":"Our software offers a sophisticated learning management system, facilitating efficient organization, distribution, and assessment of educational content to oversee course structures and ensure a cohesive learning experience."
+            },
+            {
+                "featuresTitle":"Collaborative Workflow Integration",
+                "featuresDescription":"From discussion forums to collaborative document editing, our software optimizes workflow for enhanced productivity, communication and collaboration among educators, students, and administrators through seamlessly integrated tools."
+            },
+            {
+                "featuresTitle":"Predictive Analytics",
+                "featuresDescription":"Leverage advanced analytics to gain actionable insights into student performance trends, enabling timely interventions and personalized learning approaches. Our software empowers educators with data-driven decision-making for continuous improvement."
+            },
+            {
+                "featuresTitle":"Technological Agility",
+                "featuresDescription":"With a commitment to staying ahead in the educational technology landscape, our software integrates cutting-edge technologies such as AI, virtual classrooms, and interactive simulations, providing a future-proof solution for evolving educational needs."
+            }
+        ],
+        "caseStudyList":[
+            {
+                "cols":[
+                    {
+                        "caseStudyTitle":"Egyptian Ministry Of Finance",
+                        "caseStudyDescription":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                        "caseStudyImage":"../../../../../../assets/img/services/financeLogo.svg"
+                    },
+                    {
+                        "caseStudyTitle":"Egyptian Ministry Of Finance",
+                        "caseStudyDescription":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                        "caseStudyImage":"../../../../../../assets/img/services/planningLogo.svg"
+                    }
+                ]
+            }
+
+        ],
+        "customerMainTitle":"We are proud to forge strong partnerships with forward-thinking administrators, educators, and academic leaders who benefit from our tailored software solutions, prioritize innovation, and seek to enhance the overall educational experience for their students.",
+        "customerList":[
+            {
+                "customerImg":"../../../../assets/img/Industrieslogos/Education/cairo-university.png"
+            },
+            {
+                "customerImg":"../../../../assets/img/Industrieslogos/Education/msa-university.png"
+            },
+            {
+                "customerImg":"../../../../assets/img/Industrieslogos/Education/ngu.png"
+            }
+            
+        ]
+        
+      }
+    ]
+  }
+  

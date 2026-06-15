@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="202" height="418" viewBox="0 0 202 418">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Mask_Shape" data-name="Mask Shape" d="M0,0H202V418H0Z" transform="translate(-818 902)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_of_OffWhite_Shape" data-name="Mask of OffWhite Shape" transform="translate(818 -902)" clip-path="url(#clip-path)">
+    <path id="OffWhite_Shape" data-name="OffWhite Shape" d="M525.878,110c268.81,0,550.072,241.165,420.96,464.794s289.48,525.255-420.96,525.255S352.659,974.443-40.188,581.6,257.067,110,525.878,110Z" transform="translate(-2006.363 728.678) rotate(-30)" fill="#cbd9ec"/>
+  </g>
+</svg>

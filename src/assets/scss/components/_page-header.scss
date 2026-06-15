@@ -1,0 +1,31 @@
+.page-header{
+    position: relative;min-height:600px;
+    .img-service{position: absolute;height: 100%;left: 0;right: 0;width:100%}
+    .title-overlay{
+        position: absolute;
+        top: 24px;right: 0;bottom: 0;left: 0;width: 100%;
+        height: 90%;display: flex;justify-content: center;align-items: center;
+    }
+    .section-heading{
+        position: relative;text-align: center;display:flex;
+        justify-content: center;align-items: center;margin-bottom:0rem;
+        h2{
+            color:$primary-color;
+            font-size: rem(80);position: relative;
+            @media #{$max-md} {font-size:rem(50);}
+            @media #{$max-sm} {font-size:rem(30);}
+            &::before{
+                @include headingSection('Solutions');
+                @media #{$max-l} {font-size:rem(150);}
+                @media #{$max-md} {font-size:rem(60);}
+
+            }
+        }
+    }
+    .section-seprator{position: absolute;bottom: 0px;width: 100%;}
+    @media #{$max-l} {min-height:400px;}
+    @media #{$max-md} {min-height:270px;}
+    @media #{$max-sm} {min-height:200px;}
+
+    
+}

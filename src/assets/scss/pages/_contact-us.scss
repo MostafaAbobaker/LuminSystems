@@ -1,0 +1,186 @@
+.contactUs-page {
+  .service {
+    .service-container {
+      width: 20%;
+      flex: 1 0 20%;
+      .icon--overlay {
+        width: 120px !important;
+        // padding: 0;
+      }
+    }
+    .content {
+      width: 80%;
+      flex: 1 0 80%;
+    }
+  }
+  /* Start Page Header */
+  // .page-header {
+  //   max-height: 500px;
+  //   overflow: hidden;
+  //   @media #{$max-md}{max-height: 270px;    }
+  //   @media (max-width: 575px){max-height: 200px;    }
+  //   .img-service {
+  //     height: 500px;
+  //     object-fit: cover;
+  //     object-position: center 40%;
+  //     @media #{$max-md}{height: 270px; object-position: center top;   }
+  //     @media (max-width: 575px){height: 200px; object-position: center center;    }
+
+  //   }
+  //   .section-heading {
+  //     span {
+  //       &::before {
+  //         content: 'GET IN TOUCH';
+  //         // content:  attr(data-title);
+  //         white-space: nowrap;
+  //       }
+  //     }
+  //   }
+  // }
+  /* End Page Header */
+   /* Start All Service Page */
+  .all-service-page {
+    .breadcrumb {
+      margin-bottom: 0;
+    }
+  }
+  /* End All Service Page */
+  /* Start Contact Concent */
+  .service__sub__title {
+    &::after {
+      width: rem(28);
+    }
+  }
+  .line-clamp-4 {
+    a {
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  /* End Contact Concent */
+  /* Start contact-data */
+  .contact-data {
+    position: relative;
+    .footer-section {
+      position: absolute;
+      z-index: 3;
+        inset-inline-start: 50%;
+        transform: translateX(-50%);
+      span {
+        &::before {
+          content: attr(data-title);
+          font-size: rem(200);
+          opacity: 0.1;
+          color: $primary-color;
+          z-index: 3;
+          @media #{$max-md}{font-size: rem(100);}
+          @media (max-width: 575px){font-size: rem(100);   }
+
+        }
+
+      }
+    }
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -200px;
+      inset-inline-start: 0;
+      width: 100%;
+      height: 200px;
+      background: url(../../img/services/BottomCurvedShape.svg) no-repeat center center;
+      background-size: cover;
+      z-index: 2;
+      @media #{$max-md}{bottom: -100px;height: 100px;}
+      @media (max-width: 575px){bottom: -50px;height: 50px;   }
+
+    }
+  }
+  /* End contact-data */
+
+/* Start sub Category Titles */
+.sub__category__titles {
+  position: relative;
+  background-color: transparent;
+  z-index: 1;
+  .overlay-sperator {
+    .section-heading {
+      span {
+        &::before {
+          // content: 'OUR LOCATION';
+          content:  attr(data-title);
+          text-transform: uppercase;
+          opacity: 0.05;
+          white-space: nowrap;
+          bottom: 28%;
+        }
+      }
+    }
+  }
+}
+/* End sub Category Titles */
+/* Start page-map */
+.page-map {
+  // margin-top: rem(-200);
+  padding: 0;
+  iframe {
+    filter: grayscale(1);
+    border: none;
+    width: 100%;
+    height: 750px;
+  }
+}
+/* End page-map */
+
+/* Start  */
+.partners {
+  background-color: transparent;
+  .section-heading {
+    margin-top: -160px;
+    background-position: top;
+    height: 155px;
+    span {
+      &::before {
+        content:  attr(data-title);
+          opacity: 0.05;
+          white-space: nowrap;
+          font-size: rem(200);
+          bottom: 28%;
+          @media #{$max-md}{font-size: rem(100);}
+          @media (max-width: 575px){font-size: rem(100);  }
+
+      }
+    }
+  }
+
+}
+/* End  */
+}
+.contact-form {
+  .form-floating {
+
+
+    label {
+      color: $gray-color;
+      font-size: $fs-24;
+      padding: rem(19) rem(24);
+    }
+    .form-control {
+      border-radius: rem(15);
+      height: rem(80);
+      border: rem(1) solid rgba($gray-color , .5);
+      font-size: $fs-22;
+      color: $primary-color-dark;
+      &:focus  ~ label{
+        transform: scale(.6) translateY(-0.5rem) translateX(0.15rem);
+      }
+      &:not(:placeholder-shown)~label {
+        transform: scale(.6) translateY(-0.5rem) translateX(0.15rem);
+      }
+    }
+    textarea.form-control {
+      height: rem(200);
+
+    }
+  }
+}

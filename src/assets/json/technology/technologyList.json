@@ -1,0 +1,40 @@
+{
+    "technologies": [
+      {
+        "technologyId": 1,
+        "technologyTitle": "Microsoft",
+        "technologyTitleNavigation": "Microsoft",
+        "technologyDescription": "Microsoft Technology is a diverse and integrated ecosystem, developed by Microsoft Corporation, which is renowned for its operating systems, productivity software, cloud services, and development tools that are most widely used globally.",
+        "technologyImage":"technology/microsoft.png"
+      },
+      {
+        "technologyId": 2,
+        "technologyTitle": "Odoo",
+        "technologyTitleNavigation": "Odoo",
+        "technologyDescription": "Odoo is an open-source business management software suite that has evolved into a powerful and modular platform covering areas such as Accounting, Sales, CRM, Inventory Management, Project Management, Human Resources, and more.",
+        "technologyImage":"technology/odoo.png"
+      },
+      {
+        "technologyId": 2,
+        "technologyTitle": "Technology Stack",
+        "technologyTitleNavigation": "Technology-Stack",
+        "technologyDescription": "Development Tools are a set of software applications, utilities, and resources designed to assist developers in creating, testing, and debugging software, including Integrated Development Environments (IDEs), Version Control Systems, etc.",
+        "technologyImage":"technology/devtools.png"
+      },
+      {
+        "technologyId": 4,
+        "technologyTitle": "AI Technology Stack",
+        "technologyTitleNavigation": "AI-Technology-Stack",
+        "technologyDescription": "AI technology encompass a diverse set of computer science methodologies that leverage algorithms, machine learning, and deep learning to simulate cognitive functions, enabling systems to learn from data, make decisions, and improve performance.",
+        "technologyImage":"technology/aitechnology.png"
+      },
+      {
+        "technologyId": 5,
+        "technologyTitle": "ENTRUST",
+        "technologyTitleNavigation": "ENTRUST",
+        "technologyDescription": "The technology encompasses an array of identity and security solutions, offering secure debit/credit card transactions, card printing, border control solutions, SSL technology for online security, and authentication products for network and device protection.",
+        "technologyImage":"technology/Entrust.png"
+      }
+    ]
+  }
+  

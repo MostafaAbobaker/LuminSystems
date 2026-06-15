@@ -1,0 +1,127 @@
+<app-loader *ngIf="loaded"></app-loader>
+<app-page-header 
+  [headerTitle]="'Service'"
+  [headerImage]="'services/service-header.png'"
+  ></app-page-header>
+  <section class="all-service-page">
+    <div class="container">
+      <!-- breadcrumb -->
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li routerLink=""  class="breadcrumb-item">
+            <svg xmlns="http://www.w3.org/2000/svg"  height="23.016" viewBox="0 0 24 23.016">
+              <path id="Home_icon_SVG" data-name="Home icon_SVG" d="M23.728,21.082,13.959,11.25l-.039-.037a2.81,2.81,0,0,0-3.749-.008l-.039.037L.275,21.079A.938.938,0,0,0,1.6,22.406l.744-.743v8.095a3.754,3.754,0,0,0,3.75,3.75H9.469a.937.937,0,0,0,.937-.937V24.93h3.281v7.641a.937.937,0,0,0,.938.938h3.281a3.754,3.754,0,0,0,3.75-3.75.937.937,0,1,0-1.875,0,1.877,1.877,0,0,1-1.875,1.875H15.563V23.993a.937.937,0,0,0-.937-.937H9.469a.937.937,0,0,0-.937.938v7.641H6.094a1.877,1.877,0,0,1-1.875-1.875V19.821q0-.014,0-.028l7.217-7.2a.937.937,0,0,1,1.216,0l7.13,7.177v5.3a.937.937,0,1,0,1.875,0V21.658l.741.746a.937.937,0,0,0,1.33-1.322Z" transform="translate(0 -10.492)" fill="#0055b8"/>
+            </svg>
+            <a >Home</a>
+          </li>   
+          <li class="breadcrumb-item active" aria-current="page">Services</li>
+        </ol>
+      </nav>
+      <div class=" text-center service-paragraph">
+        <p class="line-clamp-4">We master crafting flawless digital experiences, ensuring operational excellence, deploying advanced AI and database services, and providing consultancy & outsourcing, all complemented by forefront card issuing services, creating a future-ready approach for your business needs.</p>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="card service__card">
+            <div class="service__icon">
+              <img class="icon--overlay img-fluid" src="../.././../../assets/img/home/icons/digital-experience.svg">
+            </div>
+            <div class="card-body">
+              <h2 class="service__title">Digital Experience</h2>
+              <p class="line-clamp-3">Our Digital Experience Service is a transformative journey that not only prioritizes exceptional customer interactions but also enhances internal processes, creating a holistic and harmonious digital ecosystem redefining the standards of digital engagement for your end customer and internally.</p>
+              <div class="d-flex justify-content-end">
+                <button  [routerLink]="['Digital-Experience']" class="btn btn-primary btn-more">
+                  <img class="img-fluid" src="../../../../assets/img/home/icons/arrow.svg">
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card service__card">
+            <div class="service__icon">
+              <img class="icon--overlay img-fluid" src="../.././../../assets/img/home/icons/technology.svg">
+            </div>
+            <div class="card-body">
+              <h2 class="service__title">Operational Excellence</h2>
+              <p class="line-clamp-3">Supercharge your business efficiency through Custom Applications, streamlining workflows with Business Process Automation (BPA), ensuring seamless operations with Robotic Process Automation (RPA), and controlling your content lifecycle with Enterprise Content Management (ECM).</p>
+              <div class="d-flex justify-content-end">
+                <button   [routerLink]="['Operational-Excellence']" class="btn btn-primary btn-more">
+                  <img class="img-fluid" src="../../../../assets/img/home/icons/arrow.svg">
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card service__card">
+            <div class="service__icon">
+              <img class="icon--overlay img-fluid" src="../.././../../assets/img/home/icons/ai-brain.svg">
+            </div>
+            <div class="card-body">
+              <h2 class="service__title">Artificial Intelligence (AI)</h2>
+              <p class="line-clamp-3">From Computer Vision to Machine Learning, NLP, and AI-driven Automation, Lumin Soft offers transformative solutions to help elevate efficiency and gain data-driven insights with our integrated Data Insights & Visualization services.</p>
+              <div class="d-flex justify-content-end">
+                <button  [routerLink]="['Artifical-Intelligance']" class="btn btn-primary btn-more">
+                  <img class="img-fluid" src="../../../../assets/img/home/icons/arrow.svg">
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card service__card">
+            <div class="service__icon">
+              <img class="icon--overlay img-fluid" src="../.././../../assets/img/home/icons/database.svg">
+            </div>
+            <div class="card-body">
+              <h2 class="service__title">Data & Analytics</h2>
+              <p class="line-clamp-3">We provide actionable insights through Business Analysis and BI, guaranteeing precision and efficiency in data management with Integration, Transformation, and reliable Database Services that take your analytics strategy to new heights with our expertise.</p>
+              <div class="d-flex justify-content-end">
+                <button   [routerLink]="['Database-Service']" class="btn btn-primary btn-more">
+                  <img class="img-fluid" src="../../../../assets/img/home/icons/arrow.svg">
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card service__card">
+            <div class="service__icon">
+              <img class="icon--overlay img-fluid" src="../.././../../assets/img/home/icons/Consultancy.svg">
+            </div>
+            <div class="card-body">
+              <h2 class="service__title">Consultancy & Outsourcing</h2>
+              <p class="line-clamp-3">Unlock tailored excellence with our Consultancy & Outsourcing services. Optimize operations with dedicated teams of Services, Development, UI/UX, Project, and QA. Our expert consultancy guides strategic business growth. Partner with us for efficiency and innovation at every step.</p>
+              <div class="d-flex justify-content-end">
+                <button [routerLink]="['Consultant-&-OutSourcing']" class="btn btn-primary btn-more">
+                  <img class="img-fluid" src="../../../../assets/img/home/icons/arrow.svg">
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card service__card">
+            <div class="service__icon">
+              <img class="icon--overlay img-fluid" src="../.././../../assets/img/home/icons/Cardissuing.svg">
+            </div>
+            <div class="card-body">
+              <h2 class="service__title">Card Issuance</h2>
+              <p class="line-clamp-3">Through our swift and reliable card issuance solutions, we prioritize the creation of custom-designed cards and implement a secure and efficient distribution process, ensuring a streamlined process and a smooth and trustworthy experience for our clients.</p>
+              <div class="d-flex justify-content-end">
+                <button  [routerLink]="['Card-Issuing-Service']" class="btn btn-primary btn-more">
+                  <img class="img-fluid" src="../../../../assets/img/home/icons/arrow.svg">
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <div class="section-seprator bg-service">
+    <img src="../../../../assets/img/home/TopCurves.svg">
+  </div>

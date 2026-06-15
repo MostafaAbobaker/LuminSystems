@@ -1,0 +1,41 @@
+<section class="service__subcategory">
+  <div class="our-facts sub__category__titles">
+    <div class="overlay-sperator">
+      <img src="../../../../assets/img/services/BottomCurvedShape.svg">
+      <div class="section-heading our-core-values">
+        <h2 class="text-primary">{{coreValue?.coreValueTitle}}</h2>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class=" text-center service-catagory-paragraph">
+      <p class="line-clamp-4">
+        {{coreValue?.coreValueDescription}}
+      </p>
+    </div>
+    <div class="row" *ngIf="listCoreValue?.length == 1">
+      <div class="col-lg-6 successful__story__container offset-3" *ngFor="let coreValue of listCoreValue">
+        <div class="successful__story__icon"></div>
+        <div class="card service__card">
+          <div class="card-body">
+            <h2 class="service__title">{{coreValue?.coreValueTitle}}</h2>
+            <p class="line-clamp-3 pt-1">{{coreValue?.coreValueDescription}}</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="row" *ngIf="!(listCoreValue?.length == 1)">
+      <div class="col-lg-6 successful__story__container" *ngFor="let coreValue of listCoreValue">
+        <div class="successful__story__icon"></div>
+        <div class="card service__card">
+          <div class="card-body">
+            <h2 class="service__title">{{coreValue?.coreValueTitle}}</h2>
+            <p class="line-clamp-3 pt-1">{{coreValue?.coreValueDescription}}</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>

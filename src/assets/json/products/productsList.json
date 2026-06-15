@@ -1,0 +1,61 @@
+{
+    "products": [
+      {
+        "productId": 1,
+        "productTitle": "SWAP",
+        "productTitleNavigation": "SWAP",
+        "productDescription": "Offers an advanced process for enabling payment services, guaranteeing a frictionless and swift ..",
+        "productImage":"products/swap.jpg"
+      },
+      {
+        "productId": 2,
+        "productTitle": "eNroll",
+        "productTitleNavigation": "eNroll",
+        "productDescription": "Ensures a paperless and secure method for verifying customer identities remotely ..",
+        "productImage":"products/eNROLL.jpg"
+      },
+      {
+        "productId": 2,
+        "productTitle": "Pitch+",
+        "productTitleNavigation": "Pitchplus",
+        "productDescription": "Pinpoints player defects and extracts comprehensive game-related data to enhance ..",
+        "productImage":"products/statista.jpg"
+      },
+      {
+        "productId": 4,
+        "productTitle": "FitMate+",
+        "productTitleNavigation": "FitMateplus",
+        "productDescription": "Identifies exercises by framing the body in green to indicate correct execution and mark ..",
+        "productImage":"products/i-trainer.jpg"
+      },
+      {
+        "productId": 5,
+        "productTitle": "Notify",
+        "productTitleNavigation": "Notify",
+        "productDescription": "Facilitates communication across diverse channels and Social Media Platforms ..",
+        "productImage":"products/notify.jpg"
+      },
+      {
+        "productId": 6,
+        "productTitle": "Form Management",
+        "productTitleNavigation": "Form-Management",
+        "productDescription": "Streamlines the creation and management of forms and how businesses tackle tasks related ..",
+        "productImage":"products/form-builder.jpg"
+      },
+      {
+        "productId": 7,
+        "productTitle": "ID Hub",
+        "productTitleNavigation": "ID-Hub",
+        "productDescription": "Introduces an advanced solution with its Single Sign-On (SSO) feature, altering access control, and ..",
+        "productImage":"products/Identity-hub.jpg"
+      },
+      {
+        "productId": 8,
+        "productTitle": "Lumin One ECM",
+        "productTitleNavigation": "Lumin-One-ECM",
+        "productDescription": "The Sharepoint Portal offers a centralized hub for seamless content management, document ..",
+        "productImage":"products/lumin-portal.jpg"
+      }
+    ]
+  }
+  
